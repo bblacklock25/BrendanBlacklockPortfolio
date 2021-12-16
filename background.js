@@ -264,5 +264,5 @@ function fovZoom() {
             cancelAnimationFrame(cancelReverseAnimation);
             animateFinal();
         }
-    }, 50);
+    }, 75);
 }
