@@ -57,6 +57,7 @@ canvas {
   text-align: center;
   color: whitesmoke;
   font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
   /* font-family: 'Source Code Pro', monospace; */
   font-weight: bold;
   text-shadow: 0.0260625em 0.0260625em 0.0260625em #616161,
