@@ -1,7 +1,7 @@
 // Initialize constants and variables for typing effect. 
 const typedTextSpan = document.querySelector(".homepage-welcome-text");
 const cursorSpan = document.querySelector(".cursor");
-const textArray = ["Welcome to Brendan Blacklock's Portfolio", "Are you ready to enter?"];
+const textArray = ["Welcome Visitor...", "Are you ready to enter?"];
 const typingDelay = 200;
 const erasingDelay = 100;
 const newTextDelay = 3000;
