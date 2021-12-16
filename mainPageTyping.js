@@ -24,8 +24,10 @@ menuButton.addEventListener('mouseover', linkGrow);
 menuButton.addEventListener('mouseleave', linkShrink);
 
 function linkGrow() {
-  mouseCursor.classList.toggle('link-grow');
-  menuButton.classList.toggle('hovered-link');
+  if (mobileDevice == 0) {
+    mouseCursor.classList.toggle('link-grow');
+    menuButton.classList.toggle('hovered-link');
+  }
 }
 
 function linkShrink() {
@@ -36,6 +38,18 @@ function linkShrink() {
 function cursor(e) {
   mouseCursor.style.top = e.pageY + 'px';
   mouseCursor.style.left = e.pageX + 'px';
+}
+
+var mobileDevice = 0;
+
+if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+    mobileDevice = 1;
+} else{
+    mobileDevice = 0;
+}
+
+if (mobileDevice == 1) {
+    document.getElementById('mobileCursor').remove();
 }
 
 function type() {
