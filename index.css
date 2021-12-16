@@ -33,7 +33,6 @@ body {
 
 /* THREE.JS CSS */
 canvas { 
-  background-color: #3d3d3d;
   position: fixed;
   display: block;
   top: 0;
@@ -345,7 +344,7 @@ canvas {
 .homepage-welcome-text {
   font-size: 3em;
   text-align: center;
-  color: rgb(20, 20, 20);
+  color: white;
   font-family: 'Source Code Pro', monospace;
   overflow: hidden;
   padding-bottom: 0;
