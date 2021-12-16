@@ -345,7 +345,7 @@ canvas {
 .homepage-welcome-text {
   font-size: 3em;
   text-align: center;
-  color: whitesmoke;
+  color: rgb(20, 20, 20);
   font-family: 'Source Code Pro', monospace;
   overflow: hidden;
   padding-bottom: 0;
