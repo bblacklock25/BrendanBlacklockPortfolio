@@ -346,7 +346,7 @@ canvas {
   font-size: 3em;
   text-align: center;
   color: white;
-  font-family: 'Source Code Pro', monospace;
+  font-family: "Lucida Sans Typewriter","Lucida Console",Monaco,"Bitstream Vera Sans Mono",monospace;
   overflow: hidden;
   padding-bottom: 0;
 }
