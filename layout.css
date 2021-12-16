@@ -7,36 +7,25 @@
   flex-direction: row;
   overflow: hidden;
   position: fixed;
-  overflow: hidden;
   width: 100vw;
   height: 100vh;
   top: 0vh;
   left: 0vw;
   justify-content: space-between;
-  height: auto;
-  width: 100%;
   transition: 0.5s;
   z-index: 3;
 }
 
 #navbar h3 {
-  position: fixed;
-  top: 1.6vh;
-  margin-top: 0;
-  margin-left: 1.5vw;
   font-size: 1.75em;
   color: white;
   font-family: 'Major Mono Display', monospace;
 }
 
-#menu-icon {
-  position: fixed;
-  width: 2.1em;
-  height: 1.75em;
-  right: 0.5vw;
-  margin-top: 0;
-  padding: 1em;
-  z-index: 3;
+#navbar h4 {
+  font-size: 1.25em;
+  color: white;
+  font-family: 'Major Mono Display', monospace;
 }
 
 .navbar-toggle {
