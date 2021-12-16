@@ -21,18 +21,6 @@ var inc = -0.01;
 window.addEventListener('resize', onWindowResize, false);
 document.getElementById('enter-button').addEventListener('click', enterButtonClicked, false);
 
-var mobileDevice = 0;
-
-if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    mobileDevice = 1;
-} else{
-    mobileDevice = 0;
-}
-
-if (mobileDevice == 1) {
-    document.getElementById('mobileCursor').remove();
-}
-
 // Set render size and add canvas element to HTML.
 renderer.setSize(window.innerWidth, window.innerHeight);
 renderer.setPixelRatio( window.devicePixelRatio );
