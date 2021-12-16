@@ -97,6 +97,10 @@ canvas {
   font-size: 1.5em;
 }
 
+#unique-title-letter {
+  color: #21ebff;
+}
+
 .main-section-title-hidden {
   visibility: hidden;
   opacity: 0;
