@@ -109,79 +109,7 @@ canvas {
   transition-duration: 5s;
 }
 
-/* @media (max-width: 1730px) {
-  #main-section-header {
-    font-size: 4.75em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 1.425em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 1.425em;
-  }
-} */
-
-/* @media (max-width: 1640px) {
-  #main-section-header {
-    font-size: 4.5em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 1.35em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 1.35em;
-  }
-} */
-
-/* @media (max-width: 1550px) {
-  #main-section-header {
-    font-size: 4.25em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 1.275em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 1.275em;
-  }
-} */
-
-/* @media (max-width: 1460px) {
-  #main-section-header {
-    font-size: 4em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 1.2em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 1.2em;
-  }
-} */
-
 @media (max-width: 1370px) {
-  /* #main-section-header {
-    font-size: 3.75em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 1.125em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 1.125em;
-  } */
   #main-section-header {
     font-size: 4.75em;
   }
@@ -196,49 +124,7 @@ canvas {
   }
 }
 
-/* @media (max-width: 1280px) {
-  #main-section-header {
-    font-size: 3.5em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 1.05em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 1.05em;
-  }
-} */
-
-/* @media (max-width: 1190px) {
-  #main-section-header {
-    font-size: 3.25em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 0.975em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 0.975em;
-  }
-} */
-
 @media (max-width: 1200px) {
-  /* #main-section-header {
-    font-size: 3em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 0.9em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 0.9em;
-  } */
   #main-section-header {
     font-size: 4.5em;
   }
@@ -254,18 +140,6 @@ canvas {
 }
 
 @media (max-width: 1030px) {
-  /* #main-section-header {
-    font-size: 2.75em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 0.825em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 0.825em;
-  } */
   #main-section-header {
     font-size: 4.25em;
   }
@@ -281,18 +155,6 @@ canvas {
 }
 
 @media (max-width: 960px) {
-  /* #main-section-header {
-    font-size: 2.5em;
-  }
-
-  #main-section-subheader1 {
-    font-size: 0.75em;
-    margin-bottom: 0;
-  }
-  
-  #main-section-subheader2 {
-    font-size: 0.75em;
-  } */
   #main-section-header {
     font-size: 4em;
   }

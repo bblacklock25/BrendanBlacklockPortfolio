@@ -242,17 +242,13 @@ function fovZoom() {
             scene.add(pointLight2);
             scene.add(pointLight3);
         }
-        // Else If zoomed almost all the way out,
-        if (zoom < -2.35) {
-            // Update scene.
+        // Else If zoomed all the way out,
+        if (zoom < -2.4) {
             scene.remove(sphereInnermost);
             scene.add(spherePrime);
             scene.add(torusOuter);
             scene.add(torusMiddle);
             scene.add(torusInner);
-        }
-        // Else If zoomed all the way out,
-        if (zoom < -2.4) {
             if (navbarChecked == 0) {
                 // Fadein navbar and heading.
                 document.getElementById('navbar').classList.toggle('navbar-fadein');
@@ -267,5 +263,5 @@ function fovZoom() {
             cancelAnimationFrame(cancelReverseAnimation);
             animateFinal();
         }
-    }, 35);
+    }, 50);
 }
