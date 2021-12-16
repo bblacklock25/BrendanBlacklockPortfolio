@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 
 /* NAVBAR CSS */
@@ -27,8 +26,7 @@
   margin-left: 1.5vw;
   font-size: 1.75em;
   color: white;
-  font-family: 'Roboto', sans-serif;
-  /* font-family: 'Major Mono Display', monospace; */
+  font-family: 'Major Mono Display', monospace;
 }
 
 #menu-icon {
