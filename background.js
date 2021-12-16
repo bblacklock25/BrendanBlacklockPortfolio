@@ -256,7 +256,7 @@ function fovZoom() {
                 document.getElementById('main-section-title').classList.toggle('main-section-title-fadein');
                 navbarChecked = 1;
             }
-            scene.remove(sphereOutermost);  // Remove outermost sphere.
+            // scene.remove(sphereOutermost);  // Remove outermost sphere.
         }
         // If back to original zoom,
         if (zoom < -3.75) { 
@@ -264,5 +264,5 @@ function fovZoom() {
             cancelAnimationFrame(cancelReverseAnimation);
             animateFinal();
         }
-    }, 0);
+    }, 10000);
 }
