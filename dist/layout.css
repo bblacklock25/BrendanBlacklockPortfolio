@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+
+/* NAVBAR CSS */
+#navbar {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  top: 0vh;
+  left: 0vw;
+  justify-content: space-between;
+  height: auto;
+  width: 100%;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+#navbar h3 {
+  position: fixed;
+  top: 1.6vh;
+  margin-top: 0;
+  margin-left: 1.5vw;
+  font-size: 1.75em;
+  color: white;
+  font-family: 'Major Mono Display', monospace;
+}
+
+#menu-icon {
+  position: fixed;
+  width: 2.1em;
+  height: 1.75em;
+  right: 0.5vw;
+  margin-top: 0;
+  padding: 1em;
+  z-index: 3;
+}
+
+.navbar-toggle {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.navbar-fadein {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 700ms;
+  transition-duration: 5s;
+}
+
+@media (max-width: 600px) {
+  #navbar h3 {
+    font-size: 1.5em;
+  }
+
+  #menu-icon {
+    width: 1.8em;
+    height: 1.5em;
+  }
+}
+
+@media (max-width: 450px) {
+  #navbar h3 {
+    font-size: 1.25em;
+  }
+
+  #menu-icon {
+    width: 1.5em;
+    height: 1.25em;
+  }
+}
+
+@media (max-width: 300px) {
+  #navbar h3 {
+    font-size: 1em;
+  }
+
+  #menu-icon {
+    width: 1.2em;
+    height: 1em;
+  }
+}
+
+@media (max-width: 1000px) {
+  #navbar h3 {
+    margin-left: 3vw;
+  }
+
+  #menu-icon {
+    margin-right: 1vw;
+  }
+}
