@@ -10,7 +10,8 @@
   width: 100vw;
   height: 100vh;
   top: 0vh;
-  left: 0vw;
+  padding-left: 2.5vw;
+  padding-right: 2.5vw;
   justify-content: space-between;
   transition: 0.5s;
   z-index: 3;
