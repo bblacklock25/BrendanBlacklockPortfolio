@@ -33,6 +33,7 @@ body {
 
 /* THREE.JS CSS */
 canvas { 
+  background-color: #3d3d3d;
   position: fixed;
   display: block;
   top: 0;
