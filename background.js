@@ -250,8 +250,8 @@ function fovZoom() {
             scene.add(torusMiddle);
             scene.add(torusInner);
             if (navbarChecked == 0) {
-                // Fadein navbar and heading.
-                document.getElementById('navbar').classList.toggle('navbar-fadein');
+                // // Fadein navbar and heading.
+                // document.getElementById('navbar').classList.toggle('navbar-fadein');
                 document.getElementById('main-section-title').classList.toggle('main-section-title-fadein');
                 navbarChecked = 1;
             }
