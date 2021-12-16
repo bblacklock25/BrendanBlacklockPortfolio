@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
 /* SELECTION CURSOR CSS*/
-body {
+/* body {
   overflow: hidden;
   cursor: none;
 }
@@ -27,9 +27,9 @@ body {
 }
 
 .hovered-link {
-  -webkit-filter: invert(100%); /* Safari/Chrome */
+  -webkit-filter: invert(100%);
   filter: invert(100%);
-}
+} */
 
 /* THREE.JS CSS */
 canvas { 
