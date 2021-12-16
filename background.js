@@ -30,7 +30,7 @@ if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigat
 }
 
 if (mobileDevice == 1) {
-    document.getElementById('cursorMobile').remove();
+    document.getElementById('mobileCursor').remove();
 }
 
 // Set render size and add canvas element to HTML.
