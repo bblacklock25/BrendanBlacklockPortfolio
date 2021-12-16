@@ -3,6 +3,7 @@
 
 /* NAVBAR CSS */
 #navbar {
+  padding: 0;
   display: flex;
   flex-direction: row;
   overflow: hidden;
@@ -10,9 +11,8 @@
   width: 100vw;
   height: 100vh;
   top: 0vh;
-  padding-left: 2.5vw;
-  padding-right: 2.5vw;
-  text-align: center;
+  left: 0vw;
+  justify-content: space-around;
   transition: 0.5s;
   z-index: 3;
 }
