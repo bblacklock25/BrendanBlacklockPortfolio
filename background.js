@@ -179,8 +179,8 @@ function animateReverse() {
 
 function animateFinal() {
     cancelFinalAnimation = requestAnimationFrame(animateFinal);
-    sphereOuter.rotation.x -= 0.001;
-    sphereOuter.rotation.y -= 0.001;
+    // sphereOuter.rotation.x -= 0.001;
+    // sphereOuter.rotation.y -= 0.001;
     sphereInner.rotation.x -= 0.001;
     sphereInner.rotation.y -= 0.001;
     spherePrime.rotation.x -= 0.005;
@@ -256,7 +256,8 @@ function fovZoom() {
                 document.getElementById('main-section-title').classList.toggle('main-section-title-fadein');
                 navbarChecked = 1;
             }
-            // scene.remove(sphereOutermost);  // Remove outermost sphere.
+            scene.remove(sphereOutermost);  // Remove outermost sphere.
+            scene.remove(sphereOuter);
         }
         // If back to original zoom,
         if (zoom < -3.75) { 
