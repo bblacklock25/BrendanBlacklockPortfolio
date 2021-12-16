@@ -19,38 +19,38 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(type, newTextDelay + 250);
   }
 });
-window.addEventListener('mousemove', cursor);
-menuButton.addEventListener('mouseover', linkGrow);
-menuButton.addEventListener('mouseleave', linkShrink);
+// window.addEventListener('mousemove', cursor);
+// menuButton.addEventListener('mouseover', linkGrow);
+// menuButton.addEventListener('mouseleave', linkShrink);
 
-function linkGrow() {
-  if (mobileDevice == 0) {
-    mouseCursor.classList.toggle('link-grow');
-    menuButton.classList.toggle('hovered-link');
-  }
-}
+// function linkGrow() {
+//   if (mobileDevice == 0) {
+//     mouseCursor.classList.toggle('link-grow');
+//     menuButton.classList.toggle('hovered-link');
+//   }
+// }
 
-function linkShrink() {
-  mouseCursor.classList.remove('link-grow');
-  menuButton.classList.remove('hovered-link');
-}
+// function linkShrink() {
+//   mouseCursor.classList.remove('link-grow');
+//   menuButton.classList.remove('hovered-link');
+// }
 
-function cursor(e) {
-  mouseCursor.style.top = e.pageY + 'px';
-  mouseCursor.style.left = e.pageX + 'px';
-}
+// function cursor(e) {
+//   mouseCursor.style.top = e.pageY + 'px';
+//   mouseCursor.style.left = e.pageX + 'px';
+// }
 
-var mobileDevice = 0;
+// var mobileDevice = 0;
 
-if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
-    mobileDevice = 1;
-} else{
-    mobileDevice = 0;
-}
+// if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+//     mobileDevice = 1;
+// } else{
+//     mobileDevice = 0;
+// }
 
-if (mobileDevice == 1) {
-    document.getElementById('mobileCursor').remove();
-}
+// if (mobileDevice == 1) {
+//     document.getElementById('mobileCursor').remove();
+// }
 
 function type() {
   if (charIndex < textArray[textArrayIndex].length) {
