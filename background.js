@@ -23,7 +23,7 @@ document.getElementById('enter-button').addEventListener('click', enterButtonCli
 
 var mobileDevice = 0;
 
-if(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
+if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)){
     mobileDevice = 1;
 } else{
     mobileDevice = 0;
