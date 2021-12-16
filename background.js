@@ -243,7 +243,7 @@ function fovZoom() {
             scene.add(pointLight2);
             scene.add(pointLight3);
         }
-        // Else If zoomed all the way out,
+        // If zoomed all the way out,
         if (zoom < -2.4) {
             scene.remove(sphereInnermost);
             scene.add(spherePrime);
@@ -264,5 +264,5 @@ function fovZoom() {
             cancelAnimationFrame(cancelReverseAnimation);
             animateFinal();
         }
-    }, 10000);
+    }, 100);
 }
