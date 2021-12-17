@@ -42,7 +42,7 @@ canvas {
   z-index: -999; 
 }
 
-/* MAIN SECTION CSS */
+/* MAIN SECTION TITLE CSS */
 #main-section-title {
   position: fixed;
   overflow: hidden;
@@ -53,20 +53,6 @@ canvas {
   display: flex;
   flex-direction: column;
   color: whitesmoke;
-    /* text-shadow: 0.0260625em 0.0260625em 0.0260625em #616161,
-    0.0260625em 0.0520625em 0.0260625em #616161,
-    0.0260625em 0.0520625em 0.0260625em #616161,
-    0.0260625em 0.1041875em 0.0260625em #616161,
-    0.0260625em 0.1041875em 0.0260625em #616161,
-    0.0260625em 0.15625em 0.0260625em #616161,
-    0.0260625em 0.1823125em 0.0260625em #616161,
-    0.0260625em 0.208125em 0.0260625em #616161,
-    0.0260625em 0.234375em 0.0260625em #616161,
-    0.0260625em 0.234375em 0.0260625em #616161,
-    0.0260625em 0.46875em 0.15625em rgba(16,16,16,0.4),
-    0.0260625em 0.46875em 0.2604375em rgba(16,16,16,0.2),
-    0.0260625em 0.46875em 0.2604375em rgba(16,16,16,0.2),
-    0.0260625em 0.78125em 1.5625em rgba(16,16,16,0.4); */
   overflow: hidden;
   z-index: 1;
 }
@@ -240,14 +226,6 @@ canvas {
   }
 }
 
-@media (max-width: 380px) {
-
-}
-
-@media (max-width: 360px) {
-
-}
-
 @media (max-width: 400px) {
   #main-section-header {
     font-size: 3em;
@@ -321,6 +299,27 @@ canvas {
   #main-section-subheader2 {
     font-size: 0.77em;
   }
+}
+
+/* MAIN SECTION NAV TAGS CSS */
+#main-section-nav-tags {
+  position: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  top: 20vh;
+  right: 20vw;
+  display: flex;
+  color: #101010;
+  text-shadow: -.5em -.5em 0 #FFF, .5em -.5em 0 #FFF, -.5em 5em 0 #FFF, 5em 5em 0 #FFF;
+  overflow: hidden;
+  z-index: 1;
+  list-style-type: none;
+}
+
+#main-section-nav-tags a {
+  text-decoration: none;
+
 }
 
 /* ENTRY SECTION CSS */
