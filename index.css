@@ -74,7 +74,7 @@ canvas {
 
 .superscript-fields {
   Font-Family: 'Quattrocento', Serif;
-  font-size: .9em;
+  font-size: .6em;
 }
 
 #unique-title-letter {
@@ -325,6 +325,7 @@ canvas {
 
 #main-section-nav-tags p{
   margin-top:0;
+  margin-bottom: 4vw
 }
 
 #main-section-nav-tags a{
