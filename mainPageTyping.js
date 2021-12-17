@@ -10,10 +10,10 @@ let charIndex = 0;
 var counter = 0;
 
 // Initialize variables for selection cursor.
-let mouseCursor = document.querySelector('.selection-cursor');
-let header = document.querySelector("#name");
-let navbar = document.querySelector('#main-section-nav-tags');
-let description = document.querySelector('p.main-section-header');
+const mouseCursor = document.querySelector('.selection-cursor');
+const header = document.querySelector("#name");
+const navbar = document.querySelectorAll('#main-section-nav-tags');
+const description = document.querySelectorAll('p.main-section-header');
 
 // Event Listeners
 document.addEventListener("DOMContentLoaded", function() {
