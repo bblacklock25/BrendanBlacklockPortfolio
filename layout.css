@@ -97,14 +97,13 @@
   overflow: hidden;
   position: fixed;
   width: 100vw;
-  top: 80vh;
-  left: 30vw;
+  top: 90vh;
   justify-content: space-around;
   transition: 0.5s;
   z-index: 3;
 }
 
-.social-links-toggle {
+.social-links-hidden {
   visibility: hidden;
   opacity: 0;
 }
