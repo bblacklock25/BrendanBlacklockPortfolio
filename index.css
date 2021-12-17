@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
 
 /* SELECTION CURSOR CSS*/
-/* body {
+body {
   overflow: hidden;
   cursor: none;
 }
@@ -29,7 +29,7 @@
 .hovered-link {
   -webkit-filter: invert(100%);
   filter: invert(100%);
-} */
+}
 
 /* THREE.JS CSS */
 canvas { 
@@ -49,7 +49,7 @@ canvas {
   width: 100vw;
   height: 100vh;
   top: 20vh;
-  left: 20vw;
+  left: 15vw;
   display: flex;
   flex-direction: column;
   color: whitesmoke;
@@ -308,7 +308,7 @@ canvas {
   width: 100vw;
   height: 100vh;
   top: 20vh;
-  left: 70vw;
+  left: 75vw;
   display: flex;
   flex-direction: column;
   overflow: hidden;
