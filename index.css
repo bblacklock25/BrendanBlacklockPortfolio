@@ -51,16 +51,15 @@ canvas {
 
 .main-section-header {
   font-family: 'Oswald', sans-serif;
-  text-transform: uppercase;
   letter-spacing: .2em;
   font-size: 4.5em;
   margin: 0;
 }
 
 .main-section-subheader {
-  font-family: 'Cardo', serif;
+  Font-Family: 'Quattrocento', Serif;
   letter-spacing: .1em;
-  font-size: 1.5em;
+  font-size: 1em;
   margin-bottom: 0;
 }
 
