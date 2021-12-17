@@ -116,8 +116,7 @@
 }
 
 .social-link-buttons {
-  width: auto;
-  height: auto;
+  /* transform: scale(-50%); */
   fill: #FFF;
   padding-left: 2em;
   padding-right: 2em;
