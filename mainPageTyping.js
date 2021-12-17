@@ -12,7 +12,7 @@ var counter = 0;
 // Initialize variables for selection cursor.
 let mouseCursor = document.querySelector('.selection-cursor');
 let header = document.querySelector("#name");
-let navbar = document.querySelector('#main-section-nav-tags a');
+let navbar = document.querySelector('#main-section-nav-tags');
 let description = document.querySelector('.main-section-header');
 
 // Event Listeners
