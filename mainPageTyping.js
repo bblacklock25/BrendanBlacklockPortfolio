@@ -12,8 +12,8 @@ var counter = 0;
 // Initialize variables for selection cursor.
 const mouseCursor = document.querySelector('.selection-cursor');
 const header = document.querySelector("#name");
-const navbar = document.querySelectorAll('#main-section-nav-tags');
-const description = document.querySelectorAll('p.main-section-header');
+const navbar = document.querySelector('#main-section-nav-tags');
+const description = document.querySelector('p.main-section-header');
 
 // Event Listeners
 document.addEventListener("DOMContentLoaded", function() {
