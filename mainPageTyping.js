@@ -13,7 +13,7 @@ var counter = 0;
 let mouseCursor = document.querySelector('.selection-cursor');
 let header = document.querySelector("#name");
 let navbar = document.querySelector('#main-section-nav-tags');
-let description = document.querySelector('#main-section-title');
+let description = document.querySelector('p.main-section-header');
 
 // Event Listeners
 document.addEventListener("DOMContentLoaded", function() {
