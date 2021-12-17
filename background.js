@@ -49,7 +49,6 @@ const torusOuterMaterial = {
     roughness: 0,
     reflectivity: 0.75,
     color: 0x5A5A5A,
-    normalMap: texture,
     normalScale: new THREE.Vector2(0.15, 0.15)
 };
 const torusMiddleMaterial = {
@@ -59,7 +58,6 @@ const torusMiddleMaterial = {
     roughness: 0,
     reflectivity: 0.75,
     color: 0x5A5A5A,
-    normalMap: texture,
     normalScale: new THREE.Vector2(0.15, 0.15)
 };
 const torusInnerMaterial = {
@@ -69,7 +67,6 @@ const torusInnerMaterial = {
     roughness: 0,
     reflectivity: 0.75,
     color: 0x5A5A5A,
-    normalMap: texture,
     normalScale: new THREE.Vector2(0.15, 0.15)
 };
 var texture = new THREE.CanvasTexture(new FlakesTexture());
