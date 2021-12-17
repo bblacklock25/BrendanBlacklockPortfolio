@@ -308,7 +308,7 @@ canvas {
   width: 100vw;
   height: 100vh;
   top: 20vh;
-  left: 80vw;
+  left: 70vw;
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -317,10 +317,15 @@ canvas {
   font-family: 'Oswald', sans-serif;
 }
 
+#main-section-nav-tags p{
+  margin-top:0;
+}
+
 #main-section-nav-tags a{
   padding-top:0;
   text-decoration: none;
-  color: white;
+  color: #101010;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 
 .main-section-nav-tags-hidden {
