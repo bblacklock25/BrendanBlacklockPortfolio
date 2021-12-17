@@ -316,6 +316,19 @@ canvas {
   z-index: 1;
   font-size: 3em;
   font-family: 'Oswald', sans-serif;
+  text-decoration: none;
+}
+
+.main-section-nav-tags-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.main-section-nav-tags-fadein {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 700ms;
+  transition-duration: 5s;
 }
 
 /* ENTRY SECTION CSS */
