@@ -308,7 +308,7 @@ canvas {
   width: 100vw;
   height: 100vh;
   top: 20vh;
-  left: 40vw;
+  left: 80vw;
   display: flex;
   flex-direction: column;
   overflow: hidden;
