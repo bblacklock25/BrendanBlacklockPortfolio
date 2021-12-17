@@ -98,7 +98,7 @@
   position: fixed;
   width: 100vw;
   top: 90vh;
-  justify-content: space-around;
+  justify-content: center;
   transition: 0.5s;
   z-index: 3;
 }
@@ -113,4 +113,12 @@
   opacity: 1;
   transition: visibility 0s linear 0s, opacity 700ms;
   transition-duration: 5s;
+}
+
+.social-link-buttons {
+  width: 1.75em;
+  height: 1.75em;
+  fill: #FFF;
+  padding-left: 2em;
+  padding-right: 2em;
 }
