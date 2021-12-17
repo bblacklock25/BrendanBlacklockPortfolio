@@ -88,3 +88,30 @@
     margin-right: 1vw;
   }
 }
+
+/* SOCIAL LINK CSS */
+#social-links {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  position: fixed;
+  width: 100vw;
+  top: 80vh;
+  left: 30vw;
+  justify-content: space-around;
+  transition: 0.5s;
+  z-index: 3;
+}
+
+.social-links-toggle {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.social-links-fadein {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 700ms;
+  transition-duration: 5s;
+}
