@@ -310,16 +310,17 @@ canvas {
   top: 20vh;
   right: 20vw;
   display: flex;
+  flex-direction: column;
   color: #101010;
-  text-shadow: -.5em -.5em 0 #FFF, .5em -.5em 0 #FFF, -.5em 5em 0 #FFF, 5em 5em 0 #FFF;
+  text-shadow: -.5em -.5em 0 #FFF, .5em -.5em 0 #FFF, -.5em .5em 0 #FFF, .5em .5em 0 #FFF;
   overflow: hidden;
   z-index: 1;
   list-style-type: none;
+  font-size: 3em;
 }
 
 #main-section-nav-tags a {
   text-decoration: none;
-
 }
 
 /* ENTRY SECTION CSS */
@@ -467,7 +468,6 @@ canvas {
   text-decoration: none;
   transition: 0.5s;
   overflow: hidden;
-  z-index: 3;
 }
 
 #enter-button:hover {
