@@ -64,6 +64,14 @@ canvas {
   margin-bottom: 0;
 }
 
+.main-section-subheader {
+  Font-Family: 'Quattrocento', Serif;
+  letter-spacing: .1em;
+  font-size: .75em;
+  padding-left: 2em;
+  margin-bottom: 0;
+}
+
 #unique-title-letter {
   color: #21ebff;
 }
