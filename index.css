@@ -40,7 +40,7 @@ canvas {
   position: fixed;
   overflow: hidden;
   height: 100vh;
-  width: auto;
+  width: 13vw;
   top: 20vh;
   left: 15vw;
   display: flex;
@@ -58,6 +58,7 @@ canvas {
 }
 
 .main-section-subheader {
+  line-height: .2em;
   Font-Family: 'Quattrocento', Serif;
   letter-spacing: .1em;
   font-size: 1em;
