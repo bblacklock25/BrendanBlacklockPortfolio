@@ -22,8 +22,12 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 });
 window.addEventListener('mousemove', cursor);
-menuButton.addEventListener('mouseover', linkGrow);
-menuButton.addEventListener('mouseleave', linkShrink);
+header.addEventListener('mouseover', linkGrow);
+header.addEventListener('mouseleave', linkShrink);
+navbar.addEventListener('mouseover', linkGrow);
+navbar.addEventListener('mouseleave', linkShrink);
+description.addEventListener('mouseover', linkGrow);
+description.addEventListener('mouseleave', linkShrink);
 
 function linkGrow() {
   if (mobileDevice == 0) {
