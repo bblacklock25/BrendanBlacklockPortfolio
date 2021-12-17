@@ -14,7 +14,10 @@ const mouseCursor = document.querySelector('.selection-cursor');
 const header = document.querySelector("#name");
 const navbar = document.querySelector('#main-section-nav-tags');
 const description = document.querySelector('#main-section-title');
-const socials = document.querySelector('#social-links');
+const linkedIn = document.querySelector('[title="linkedIn"]');
+const discord = document.querySelector('[title="discord"]');
+const gitHub = document.querySelector('[title="gitHub"]');
+const youTube = document.querySelector('[title="youTube"]');
 
 // Event Listeners
 document.addEventListener("DOMContentLoaded", function() {
@@ -29,8 +32,14 @@ navbar.addEventListener('mouseover', linkGrow);
 navbar.addEventListener('mouseleave', linkShrink);
 description.addEventListener('mouseover', linkGrow);
 description.addEventListener('mouseleave', linkShrink);
-socials.addEventListener('mouseover', linkGrow);
-socials.addEventListener('mouseleave', linkShrink);
+linkedIn.addEventListener('mouseover', linkGrow);
+linkedIn.addEventListener('mouseleave', linkShrink);
+discord.addEventListener('mouseover', linkGrow);
+discord.addEventListener('mouseleave', linkShrink);
+gitHub.addEventListener('mouseover', linkGrow);
+gitHub.addEventListener('mouseleave', linkShrink);
+youTube.addEventListener('mouseover', linkGrow);
+youTube.addEventListener('mouseleave', linkShrink);
 
 function linkGrow() {
   if (mobileDevice == 0) {
