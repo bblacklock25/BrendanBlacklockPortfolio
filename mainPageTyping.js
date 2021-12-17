@@ -12,9 +12,9 @@ var counter = 0;
 // Initialize variables for selection cursor.
 const mouseCursor = document.querySelector('.selection-cursor');
 const header = document.querySelector("#name");
-// const navbar = document.querySelector('a.main-section-nav-tags-fadein');
-const description = document.querySelector('p.main-section-header');
-const socials = document.querySelector('.social-link-buttons');
+const navbar = document.querySelector('#main-section-nav-tags');
+const description = document.querySelector('#main-section-title');
+const socials = document.querySelector('#social-links');
 
 // Event Listeners
 document.addEventListener("DOMContentLoaded", function() {
@@ -25,8 +25,8 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('mousemove', cursor);
 header.addEventListener('mouseover', linkGrow);
 header.addEventListener('mouseleave', linkShrink);
-// navbar.addEventListener('mouseover', linkGrow);
-// navbar.addEventListener('mouseleave', linkShrink);
+navbar.addEventListener('mouseover', linkGrow);
+navbar.addEventListener('mouseleave', linkShrink);
 description.addEventListener('mouseover', linkGrow);
 description.addEventListener('mouseleave', linkShrink);
 socials.addEventListener('mouseover', linkGrow);
