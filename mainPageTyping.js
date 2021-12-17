@@ -14,6 +14,7 @@ const mouseCursor = document.querySelector('.selection-cursor');
 const header = document.querySelector("#name");
 const navbar = document.querySelector('a.main-section-nav-tags-fadein');
 const description = document.querySelector('p.main-section-header');
+const socials = document.querySelector('.social-link-buttons');
 
 // Event Listeners
 document.addEventListener("DOMContentLoaded", function() {
@@ -28,6 +29,8 @@ navbar.addEventListener('mouseover', linkGrow);
 navbar.addEventListener('mouseleave', linkShrink);
 description.addEventListener('mouseover', linkGrow);
 description.addEventListener('mouseleave', linkShrink);
+socials.addEventListener('mouseover', linkGrow);
+socials.addEventListener('mouseleave', linkShrink);
 
 function linkGrow() {
   if (mobileDevice == 0) {
