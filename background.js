@@ -39,7 +39,7 @@ const spherePrimeMaterial = {
     roughness: 0,
     reflectivity: 0.75,
     color: 0x21ebff,
-    normalMap: texture,
+    // normalMap: texture,
     normalScale: new THREE.Vector2(0.15, 0.15)
 };
 const torusOuterMaterial = {
