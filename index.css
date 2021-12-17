@@ -467,6 +467,7 @@ canvas {
   text-decoration: none;
   transition: 0.5s;
   overflow: hidden;
+  z-index: 3;
 }
 
 #enter-button:hover {
