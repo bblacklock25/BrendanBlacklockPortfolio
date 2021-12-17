@@ -11,7 +11,9 @@ var counter = 0;
 
 // Initialize variables for selection cursor.
 let mouseCursor = document.querySelector('.selection-cursor');
-let menuButton = document.querySelector('#menu-icon');
+let header = document.querySelector("#name");
+let navbar = document.querySelector('#main-section-nav-tags a');
+let description = document.querySelector('.main-section-header');
 
 // Event Listeners
 document.addEventListener("DOMContentLoaded", function() {
@@ -26,13 +28,11 @@ menuButton.addEventListener('mouseleave', linkShrink);
 function linkGrow() {
   if (mobileDevice == 0) {
     mouseCursor.classList.toggle('link-grow');
-    menuButton.classList.toggle('hovered-link');
   }
 }
 
 function linkShrink() {
   mouseCursor.classList.remove('link-grow');
-  menuButton.classList.remove('hovered-link');
 }
 
 function cursor(e) {
