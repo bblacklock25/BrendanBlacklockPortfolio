@@ -116,6 +116,7 @@
 }
 
 .social-link-buttons {
+  cursor: none;
   transform: scale(0.9);
   fill: #FFF;
   padding: 1em;

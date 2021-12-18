@@ -30,13 +30,13 @@ document.addEventListener("DOMContentLoaded", function() {
 window.addEventListener('mousemove', cursor);
 header.addEventListener('mouseover', linkGrow);
 header.addEventListener('mouseleave', linkShrink);
-about.addEventListener('mouseover', linkGrow);
+about.addEventListener('mouseover', linkGrowBig);
 about.addEventListener('mouseleave', linkShrink);
-projects.addEventListener('mouseover', linkGrow);
+projects.addEventListener('mouseover', linkGrowBig);
 projects.addEventListener('mouseleave', linkShrink);
-resume.addEventListener('mouseover', linkGrow);
+resume.addEventListener('mouseover', linkGrowBig);
 resume.addEventListener('mouseleave', linkShrink);
-contact.addEventListener('mouseover', linkGrow);
+contact.addEventListener('mouseover', linkGrowBig);
 contact.addEventListener('mouseleave', linkShrink);
 linkedIn.addEventListener('mouseover', linkGrow);
 linkedIn.addEventListener('mouseleave', linkShrink);
@@ -50,6 +50,12 @@ youTube.addEventListener('mouseleave', linkShrink);
 function linkGrow() {
   if (mobileDevice == 0) {
     mouseCursor.classList.toggle('link-grow');
+  }
+}
+
+function linkGrowBig() {
+  if (mobileDevice == 0) {
+    mouseCursor.classList.toggle('link-grow-big');
   }
 }
 
