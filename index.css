@@ -570,3 +570,33 @@ canvas {
     top: 25vh;
   }
 }
+
+/* CORNER PIECE CSS */
+.corner-images {
+  transform: scale(0.5);
+  position: fixed;
+  overflow: hidden;
+}
+
+#upperLeft {
+  top: 0vh;
+  left: 0vw;
+}
+
+#upperRight {
+  top: 0vh;
+  left: 80vw;
+  transform: rotate(90deg);
+}
+
+#lowerLeft {
+  top: 80vh;
+  left: 0vw;
+  transform: rotate(180deg);
+}
+
+#lowerRight {
+  top: 80vh;
+  left: 80vw;
+  transform: rotate(270deg);
+}
