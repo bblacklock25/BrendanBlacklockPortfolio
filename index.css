@@ -474,7 +474,7 @@ canvas {
 
 #main-section-nav-tags p{
   margin-top:0;
-  margin-bottom: 2vw
+  margin-bottom: 2em;
 }
 
 #main-section-nav-tags a{
@@ -1085,20 +1085,10 @@ canvas {
 
 @media (max-height: 590px) {
   #main-section-title {
-    top: 3vh;
+    top: 0vh;
   }
 
   #main-section-nav-tags {
-    top: 9vh;
-  }
-}
-
-@media (max-height: 550px) {
-  #main-section-title {
-    top: 1vh;
-  }
-
-  #main-section-nav-tags {
-    top: 7vh;
+    top: 8vh;
   }
 }
