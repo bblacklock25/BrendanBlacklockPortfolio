@@ -17,7 +17,7 @@
 }
 
 #navbar h3 {
-  font-size: 1.75em;
+  font-size: 2em;
   color: white;
   font-family: 'Major Mono Display', monospace;
 }
@@ -116,7 +116,7 @@
 }
 
 .social-link-buttons {
-  transform: scale(0.56);
+  transform: scale(0.9);
   fill: #FFF;
   padding: 1em;
 }
