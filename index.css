@@ -585,19 +585,19 @@ canvas {
 #upperRight {
   position: fixed;
   top: 0vh;
-  left: 95vw;
+  left: 91vw;
   transform: rotate(90deg);
 }
 
 #lowerLeft {
   position: fixed;
-  top: 85vh;
+  top: 81vh;
   transform: rotate(270deg);
 }
 
 #lowerRight {
   position: fixed;
-  top: 85vh;
-  left: 95vw;
+  top: 81vh;
+  left: 91vw;
   transform: rotate(180deg);
 }
