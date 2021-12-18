@@ -574,29 +574,30 @@ canvas {
 /* CORNER PIECE CSS */
 .corner-images {
   transform: scale(0.5);
-  position: fixed;
   overflow: hidden;
 }
 
 #upperLeft {
+  position: fixed;
   top: 0vh;
-  left: 0vw;
 }
 
 #upperRight {
+  position: fixed;
   top: 0vh;
-  left: 80vw;
+  left: 95vw;
   transform: rotate(90deg);
 }
 
 #lowerLeft {
-  top: 80vh;
-  left: 0vw;
-  transform: rotate(180deg);
+  position: fixed;
+  top: 85vh;
+  transform: rotate(270deg);
 }
 
 #lowerRight {
-  top: 80vh;
-  left: 80vw;
-  transform: rotate(270deg);
+  position: fixed;
+  top: 85vh;
+  left: 95vw;
+  transform: rotate(180deg);
 }
