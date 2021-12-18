@@ -316,7 +316,7 @@ canvas {
 #main-section-nav-tags {
   position: fixed;
   overflow: hidden;
-  width: 100vw;
+  width: auto;
   height: 100vh;
   top: 24vh;
   left: 71vw;

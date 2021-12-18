@@ -97,7 +97,7 @@
   overflow: hidden;
   position: fixed;
   width: 100vw;
-  top: 90vh;
+  bottom: 2.5vh;
   justify-content: center;
   transition: 0.5s;
   z-index: 3;
