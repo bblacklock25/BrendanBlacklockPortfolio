@@ -238,7 +238,7 @@ canvas {
   } */
 }
 
-@media (max-aspect-ratio: 3/4) {
+@media (max-aspect-ratio: 47/64) {
   #main-section-title {
     top: 3vh;
     left: 31.5vw;
@@ -265,7 +265,7 @@ canvas {
   }
 }
 
-@media (max-aspect-ratio: 9/16) {
+@media (max-aspect-ratio: 19/32) {
   #main-section-title {
     top: 3vh;
     left: 31.5vw;
@@ -299,7 +299,7 @@ canvas {
   }
 
   #main-section-description {
-    width: 55vw;
+    width: 60vw;
   }
 
   .main-section-header {
@@ -468,7 +468,7 @@ canvas {
     margin-bottom: 0;
   } */
 }
-@media (max-aspect-ratio: 3/4) {
+@media (max-aspect-ratio: 47/64) {
   #main-section-nav-tags {
     font-size: 5vw;
     letter-spacing: .4em;
@@ -483,7 +483,7 @@ canvas {
   }
 }
 
-@media (max-aspect-ratio: 9/16) {
+@media (max-aspect-ratio: 19/32) {
   #main-section-nav-tags {
     font-size: 5vw;
     letter-spacing: .4em;
