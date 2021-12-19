@@ -228,7 +228,7 @@ canvas {
 @media (max-aspect-ratio: 19/32) {
   #main-section-title {
     top: 4vh;
-    left: 19.5vw;
+    left: 20.5vw;
   }
 
   #main-section-description {
@@ -255,7 +255,7 @@ canvas {
 @media (max-aspect-ratio: 31/64) {
   #main-section-title {
     top: 3vh;
-    left: 21.5vw;
+    left: 23vw;
   }
 
   #main-section-description {
@@ -351,7 +351,7 @@ canvas {
   #main-section-nav-tags {
     font-size: 4.5vw;
     letter-spacing: .4em;
-    left: 8vw;
+    left: 7vw;
     bottom: -62.5vh;
     align-items: center;
 }
@@ -365,7 +365,7 @@ canvas {
   #main-section-nav-tags {
     font-size: 5vw;
     letter-spacing: .4em;
-    left: 8.5vw;
+    left: 7.5vw;
     bottom: -61.5vh;
     align-items: center;
 }
@@ -380,7 +380,7 @@ canvas {
   #main-section-nav-tags {
     font-size: 5vw;
     letter-spacing: .4em;
-    left: 8.5vw;
+    left: 7.5vw;
     bottom: -61.5vh;
     align-items: center;
 }
