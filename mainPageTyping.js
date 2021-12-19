@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(type, newTextDelay + 250);
   }
 });
+window.addEventListener('resize', resizeCorners);
 window.addEventListener('mousemove', cursor);
 header.addEventListener('mouseover', linkGrow);
 header.addEventListener('mouseleave', linkShrink);
@@ -109,5 +110,20 @@ function erase() {
     textArrayIndex++;
     if(textArrayIndex>=textArray.length) textArrayIndex=0;
     setTimeout(type, typingDelay + 1100);
+  }
+}
+
+function resizeCorners() {
+  if (window.innerHeight < 500 || window.innerWidth < 500) {
+    document.getElementById("upperLeft").width="60";
+    document.getElementById("upperRight").width="60";
+    document.getElementById("lowerLeft").width="60";
+    document.getElementById("lowerRight").width="60";
+  }
+  else {
+    document.getElementById("upperLeft").width="100";
+    document.getElementById("upperRight").width="100";
+    document.getElementById("lowerLeft").width="100";
+    document.getElementById("lowerRight").width="100";
   }
 }

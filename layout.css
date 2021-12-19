@@ -17,7 +17,8 @@
 }
 
 #navbar h3 {
-  font-size: 2em;
+  letter-spacing: .5vw;
+  font-size: 3.69vh;
   color: white;
   font-family: 'Major Mono Display', monospace;
 }
@@ -40,52 +41,9 @@
   transition-duration: 5s;
 }
 
-@media (max-width: 600px) {
+@media (max-aspect-ratio: 1/1) {
   #navbar h3 {
-    font-size: 1.5em;
-  }
-
-  #menu-icon {
-    width: 1.8em;
-    height: 1.5em;
-  }
-}
-
-@media (max-width: 450px) {
-  #navbar h3 {
-    font-size: 1.25em;
-  }
-
-  #menu-icon {
-    width: 1.5em;
-    height: 1.25em;
-    padding: 0;
-    top: 1.6vh;
-    right: 1.5vw;
-  }
-}
-
-@media (max-width: 300px) {
-  #navbar h3 {
-    font-size: 1em;
-  }
-
-  #menu-icon {
-    width: 1.2em;
-    height: 1em;
-    padding: 0;
-    top: 1.6vh;
-    right: 1.5vw;
-  }
-}
-
-@media (max-width: 1000px) {
-  #navbar h3 {
-    margin-left: 3vw;
-  }
-
-  #menu-icon {
-    margin-right: 1vw;
+    font-size: 2vw;
   }
 }
 
@@ -117,7 +75,32 @@
 
 .social-link-buttons {
   cursor: none;
-  transform: scale(0.9);
+  transform: scale(.8);
   fill: #FFF;
-  padding-right: 1em;
+}
+
+@media (max-height: 550px) {
+  .social-link-buttons {
+    transform: scale(.6);
+    padding-right: .8vw;
+  }
+}
+
+@media (max-height: 400px) {
+  .social-link-buttons {
+    transform: scale(.4);
+    padding-right: .8vw;
+  }
+}
+
+@media (max-width: 550px) {
+  .social-link-buttons {
+    transform: scale(.6);
+  }
+}
+
+@media (max-width: 400px) {
+  .social-link-buttons {
+    transform: scale(.4);
+  }
 }
