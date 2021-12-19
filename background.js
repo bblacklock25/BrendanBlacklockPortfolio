@@ -182,12 +182,12 @@ function animateFinal() {
     sphereInner.rotation.y -= 0.001;
     spherePrime.rotation.x -= 0.005;
     spherePrime.rotation.y -= 0.005;
-    torusOuter.rotation.x += 0.002;
-    torusOuter.rotation.y += 0.002;
-    torusMiddle.rotation.x += 0.0035;
-    torusMiddle.rotation.y += 0.0035;
-    torusInner.rotation.x += 0.005;
-    torusInner.rotation.y += 0.005;
+    torusOuter.rotation.x += 0.01;
+    torusOuter.rotation.y += 0.01;
+    torusMiddle.rotation.x += 0.05;
+    torusMiddle.rotation.y += 0.05;
+    torusInner.rotation.x += 0.025;
+    torusInner.rotation.y += 0.025;
     renderer.render(scene, camera);
 }
 
