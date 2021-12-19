@@ -4,7 +4,7 @@ const cursorSpan = document.querySelector(".cursor");
 const textArray = ["Welcome Visitor...", "Are you ready to enter?"];
 const typingDelay = 200;
 const erasingDelay = 100;
-const newTextDelay = 3000;
+const newTextDelay = 1500;
 let textArrayIndex = 0;
 let charIndex = 0;
 var counter = 0;
@@ -119,7 +119,7 @@ function erase() {
 }
 
 function resizeCorners() {
-  if (window.innerHeight < 500 || window.innerWidth < 500) {
+  if (window.innerHeight < 700 || window.innerWidth < 700) {
     document.getElementById("upperLeft").width="60";
     document.getElementById("upperRight").width="60";
     document.getElementById("lowerLeft").width="60";
@@ -132,26 +132,3 @@ function resizeCorners() {
     document.getElementById("lowerRight").width="100";
   }
 }
-
-// function resizeSocials() {
-//   if (window.innerHeight < 800 || window.innerWidth < 800) {
-//     document.getElementById("linkedin-social").width="30";
-//     document.getElementById("github-social").width="30";
-//     document.getElementById("youtube-social").width="30";
-//     document.getElementById("discord-social").width="30";
-//     document.getElementById("linkedin-social").height="30";
-//     document.getElementById("github-social").height="30";
-//     document.getElementById("youtube-social").height="30";
-//     document.getElementById("discord-social").height="30";
-//   }
-//   else {
-//     document.getElementById("linkedin-social").width="60";
-//     document.getElementById("github-social").width="60";
-//     document.getElementById("youtube-social").width="60";
-//     document.getElementById("discord-social").width="60";
-//     document.getElementById("linkedin-social").height="60";
-//     document.getElementById("github-social").height="60";
-//     document.getElementById("youtube-social").height="60";
-//     document.getElementById("discord-social").height="60";
-//   }
-// }
