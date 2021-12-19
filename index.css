@@ -238,10 +238,10 @@ canvas {
   } */
 }
 
-@media (max-aspect-ratio: 9/16) {
+@media (max-aspect-ratio: 3/4) {
   #main-section-title {
-    top: 6.5vh;
-    left: 33.5vw;
+    top: 3vh;
+    left: 31.5vw;
   }
 
   #main-section-description {
@@ -253,11 +253,65 @@ canvas {
   }
   
   .main-section-subheader {
-    font-size: 1.75vw;
+    font-size: 2vw;
   }
   
   .main-section-subheader-fields {
     font-size: 1.3vw;
+  }
+  
+  .superscript-fields {
+    font-size: .8vw;
+  }
+}
+
+@media (max-aspect-ratio: 9/16) {
+  #main-section-title {
+    top: 3vh;
+    left: 31.5vw;
+  }
+
+  #main-section-description {
+    width: 40vw;
+  }
+
+  .main-section-header {
+    font-size: 10vw;
+  }
+  
+  .main-section-subheader {
+    font-size: 1.8vw;
+  }
+  
+  .main-section-subheader-fields {
+    font-size: 1.3vw;
+  }
+  
+  .superscript-fields {
+    font-size: .8vw;
+  }
+}
+
+@media (max-aspect-ratio: 31/64) {
+  #main-section-title {
+    top: 3vh;
+    left: 26.5vw;
+  }
+
+  #main-section-description {
+    width: 55vw;
+  }
+
+  .main-section-header {
+    font-size: 9vw;
+  }
+  
+  .main-section-subheader {
+    font-size: 2.5vw;
+  }
+  
+  .main-section-subheader-fields {
+    font-size: 1.7vw;
   }
   
   .superscript-fields {
@@ -297,7 +351,7 @@ canvas {
   position: fixed;
   width: auto;
   height: 100vh;
-  top: 17vh;
+  top: 20vh;
   right: 10.5vw;
   display: flex;
   flex-direction: column;
@@ -414,18 +468,47 @@ canvas {
     margin-bottom: 0;
   } */
 }
+@media (max-aspect-ratio: 3/4) {
+  #main-section-nav-tags {
+    font-size: 5vw;
+    letter-spacing: .4em;
+    left: 7.5vw;
+    top: 61vh;
+    align-items: center;
+}
+
+  #main-section-nav-tags p{
+    margin-top:.6em;
+    margin-bottom: 0;
+  }
+}
 
 @media (max-aspect-ratio: 9/16) {
   #main-section-nav-tags {
     font-size: 5vw;
     letter-spacing: .4em;
     left: 7.5vw;
-    top: 67vh;
+    top: 61vh;
     align-items: center;
 }
 
   #main-section-nav-tags p{
-    margin-top:2.75vw;
+    margin-top:1em;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-aspect-ratio: 31/64) {
+  #main-section-nav-tags {
+    font-size: 6vw;
+    letter-spacing: .4em;
+    left: 7.5vw;
+    top: 61vh;
+    align-items: center;
+}
+
+  #main-section-nav-tags p{
+    margin-top:1em;
     margin-bottom: 0;
   }
 }
