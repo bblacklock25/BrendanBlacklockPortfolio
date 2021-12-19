@@ -81,7 +81,7 @@
 
 @media (max-height: 550px) {
   #social-links {
-    bottom: 1vh;
+    bottom: 0vh;
   }
   .social-link-buttons {
     transform: scale(.6);
@@ -98,9 +98,9 @@
 
 @media (max-width: 550px) {
   #social-links {
-    bottom: 1vh;
+    bottom: 0vh;
   }
-  
+
   .social-link-buttons {
     transform: scale(.6);
   }
