@@ -350,8 +350,8 @@ canvas {
 #main-section-nav-tags {
   position: fixed;
   width: auto;
-  height: auto;
-  top: 20vh;
+  height: 100vh;
+  bottom: -17vh;
   right: 10.5vw;
   display: flex;
   flex-direction: column;
@@ -405,7 +405,7 @@ canvas {
     font-size: 4vw;
     letter-spacing: .4em;
     right: 3vw;
-    top: 25vh;
+    bottom: -26vh;
 }
 
   #main-section-nav-tags p{
@@ -418,26 +418,11 @@ canvas {
   #main-section-nav-tags {
     font-size: 4vw;
     right: 5vw;
-    top: 26vh;
+    bottom: -26vh;
   }
 
   #main-section-nav-tags p{
     margin-top: 4.5vw;
-    margin-bottom: 0;
-  }
-}
-
-@media (aspect-ratio: 5/6) {
-  #main-section-nav-tags {
-    font-size: 1.5em;
-    letter-spacing: .4em;
-    left: 8vw;
-    top: 62.5vh;
-    align-items: center;
-}
-
-  #main-section-nav-tags p{
-    margin-top:2.75vw;
     margin-bottom: 0;
   }
 }
@@ -447,7 +432,7 @@ canvas {
     font-size: 4.5vw;
     letter-spacing: .4em;
     left: 7vw;
-    top: 62vh;
+    bottom: -62.5vh;
     align-items: center;
 }
 
@@ -473,7 +458,7 @@ canvas {
     font-size: 5vw;
     letter-spacing: .4em;
     left: 7.5vw;
-    top: 61vh;
+    bottom: -61.5vh;
     align-items: center;
 }
 
@@ -488,7 +473,7 @@ canvas {
     font-size: 5vw;
     letter-spacing: .4em;
     left: 7.5vw;
-    top: 61vh;
+    bottom: -61.5vh;
     align-items: center;
 }
 
@@ -503,7 +488,7 @@ canvas {
     font-size: 6vw;
     letter-spacing: .4em;
     left: 7.5vw;
-    top: 61vh;
+    bottom: -61.5vh;
     align-items: center;
 }
 
