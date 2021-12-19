@@ -350,7 +350,7 @@ canvas {
 #main-section-nav-tags {
   position: fixed;
   width: auto;
-  height: 100vh;
+  height: atuo;
   top: 20vh;
   right: 10.5vw;
   display: flex;

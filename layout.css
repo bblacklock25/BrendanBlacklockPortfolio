@@ -80,6 +80,9 @@
 }
 
 @media (max-height: 550px) {
+  #social-links {
+    bottom: 1vh;
+  }
   .social-link-buttons {
     transform: scale(.6);
     padding-right: .8vw;
@@ -94,6 +97,10 @@
 }
 
 @media (max-width: 550px) {
+  #social-links {
+    bottom: 1vh;
+  }
+  
   .social-link-buttons {
     transform: scale(.6);
   }
