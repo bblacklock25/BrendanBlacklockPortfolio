@@ -74,7 +74,7 @@
 @media (max-height: 550px) {
   .social-link-buttons {
     transform: scale(.3);
-    padding-right: .2em;
+    padding: .2em;
   }
 
   #social-links {
@@ -85,7 +85,7 @@
 @media (max-aspect-ratio: 5/6) {
   .social-link-buttons {
     transform: scale(.4);
-    padding-right: .2em;
+    padding: .2em;
   }
   
   #social-links {
@@ -100,7 +100,7 @@
 @media (max-aspect-ratio: 9/16) {
   .social-link-buttons {
     transform: scale(.3);
-    padding-right: .2em;
+    padding: .2em;
   }
 
 }
