@@ -295,11 +295,11 @@ canvas {
 @media (max-aspect-ratio: 31/64) {
   #main-section-title {
     top: 3vh;
-    left: 26.5vw;
+    left: 25vw;
   }
 
   #main-section-description {
-    width: 60vw;
+    width: 62.5vw;
   }
 
   .main-section-header {
