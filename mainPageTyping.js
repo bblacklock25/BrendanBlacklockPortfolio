@@ -12,10 +12,10 @@ var counter = 0;
 // Initialize variables for selection cursor.
 const mouseCursor = document.querySelector('.selection-cursor');
 const header = document.querySelector("#name");
-const about = document.querySelector('[title="About"]');
-const projects = document.querySelector('[title="Projects"]');
-const resume = document.querySelector('[title="Resume"]');
-const contact = document.querySelector('[title="Contact"]');
+const about = document.querySelector('[title="about"]');
+const projects = document.querySelector('[title="projects"]');
+const resume = document.querySelector('[title="resume"]');
+const contact = document.querySelector('[title="contact"]');
 const linkedIn = document.querySelector('#linkedin-social');
 const discord = document.querySelector('#discord-social');
 const gitHub = document.querySelector('#github-social');
@@ -27,6 +27,7 @@ document.addEventListener("DOMContentLoaded", function() {
     setTimeout(type, newTextDelay + 250);
   }
 });
+document.addEventListener("DOMContentLoaded", resizeCorners);
 window.addEventListener('resize', resizeCorners);
 window.addEventListener('mousemove', cursor);
 header.addEventListener('mouseover', linkGrow);
