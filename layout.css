@@ -1,5 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 /* NAVBAR CSS */
 #navbar {
@@ -12,7 +11,6 @@
   top: 0vh;
   left: 0vw;
   justify-content: space-around;
-  transition: 0.5s;
   z-index: 3;
 }
 
@@ -21,12 +19,6 @@
   font-size: 3.69vh;
   color: white;
   font-family: 'Major Mono Display', monospace;
-}
-
-#navbar h4 {
-  font-size: 1.25em;
-  color: white;
-  font-family: 'Source Code Pro', monospace;
 }
 
 .navbar-toggle {
@@ -55,9 +47,8 @@
   overflow: hidden;
   position: fixed;
   width: 100vw;
-  bottom: 2.5vh;
+  bottom: 1.5vh;
   justify-content: center;
-  transition: 0.5s;
   z-index: 3;
 }
 
@@ -74,40 +65,42 @@
 }
 
 .social-link-buttons {
+  padding:1em;
   cursor: none;
   transform: scale(.8);
   fill: #FFF;
 }
 
 @media (max-height: 550px) {
+  .social-link-buttons {
+    transform: scale(.3);
+    padding-right: .2em;
+  }
+
   #social-links {
     bottom: 0vh;
   }
-  .social-link-buttons {
-    transform: scale(.6);
-    padding-right: .8vw;
-  }
 }
 
-@media (max-height: 400px) {
+@media (max-aspect-ratio: 5/6) {
   .social-link-buttons {
     transform: scale(.4);
-    padding-right: .8vw;
+    padding-right: .2em;
   }
-}
-
-@media (max-width: 550px) {
+  
   #social-links {
     bottom: 0vh;
   }
-
-  .social-link-buttons {
-    transform: scale(.6);
-  }
 }
 
-@media (max-width: 400px) {
+#github-social {
+  filter: invert(100%);
+}
+
+@media (max-aspect-ratio: 9/16) {
   .social-link-buttons {
-    transform: scale(.4);
+    transform: scale(.3);
+    padding-right: .2em;
   }
+
 }

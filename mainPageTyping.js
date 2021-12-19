@@ -12,31 +12,19 @@ var counter = 0;
 // Initialize variables for selection cursor.
 const mouseCursor = document.querySelector('.selection-cursor');
 const header = document.querySelector("#name");
-const about = document.querySelector('[title="about"]');
-const projects = document.querySelector('[title="projects"]');
-const resume = document.querySelector('[title="resume"]');
-const contact = document.querySelector('[title="contact"]');
-const linkedIn = document.querySelector('[title="linkedIn"]');
-const discord = document.querySelector('[title="discord"]');
-const gitHub = document.querySelector('[title="gitHub"]');
-const youTube = document.querySelector('[title="youTube"]');
+const about = document.querySelector('[title="About"]');
+const projects = document.querySelector('[title="Projects"]');
+const resume = document.querySelector('[title="Resume"]');
+const contact = document.querySelector('[title="Contact"]');
+const linkedIn = document.querySelector('#linkedin-social');
+const discord = document.querySelector('#discord-social');
+const gitHub = document.querySelector('#github-social');
+const youTube = document.querySelector('#youtube-social');
 
 // Event Listeners
 document.addEventListener("DOMContentLoaded", function() {
   if(textArray.length) {
     setTimeout(type, newTextDelay + 250);
-  }
-  if (window.innerHeight < 500 || window.innerWidth < 500) {
-    document.getElementById("upperLeft").width="60";
-    document.getElementById("upperRight").width="60";
-    document.getElementById("lowerLeft").width="60";
-    document.getElementById("lowerRight").width="60";
-  }
-  else {
-    document.getElementById("upperLeft").width="100";
-    document.getElementById("upperRight").width="100";
-    document.getElementById("lowerLeft").width="100";
-    document.getElementById("lowerRight").width="100";
   }
 });
 window.addEventListener('resize', resizeCorners);
@@ -67,13 +55,17 @@ function linkGrow() {
 }
 
 function linkGrowBig() {
-  if (mobileDevice == 0) {
+  if (mobileDevice == 0 && window.innerHeight > 600) {
     mouseCursor.classList.toggle('link-grow-big');
+  }
+  else {
+    mouseCursor.classList.toggle("link-grow");
   }
 }
 
 function linkShrink() {
   mouseCursor.classList.remove('link-grow');
+  mouseCursor.classList.remove('link-grow-big');
 }
 
 function cursor(e) {
@@ -139,3 +131,26 @@ function resizeCorners() {
     document.getElementById("lowerRight").width="100";
   }
 }
+
+// function resizeSocials() {
+//   if (window.innerHeight < 800 || window.innerWidth < 800) {
+//     document.getElementById("linkedin-social").width="30";
+//     document.getElementById("github-social").width="30";
+//     document.getElementById("youtube-social").width="30";
+//     document.getElementById("discord-social").width="30";
+//     document.getElementById("linkedin-social").height="30";
+//     document.getElementById("github-social").height="30";
+//     document.getElementById("youtube-social").height="30";
+//     document.getElementById("discord-social").height="30";
+//   }
+//   else {
+//     document.getElementById("linkedin-social").width="60";
+//     document.getElementById("github-social").width="60";
+//     document.getElementById("youtube-social").width="60";
+//     document.getElementById("discord-social").width="60";
+//     document.getElementById("linkedin-social").height="60";
+//     document.getElementById("github-social").height="60";
+//     document.getElementById("youtube-social").height="60";
+//     document.getElementById("discord-social").height="60";
+//   }
+// }

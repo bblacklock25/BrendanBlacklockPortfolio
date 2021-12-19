@@ -46,8 +46,8 @@ canvas {
   overflow: hidden;
   height: 100vh;
   width: auto;
-  top: 20vh;
-  left: 12.5vw;
+  top: 17vh;
+  left: 11vw;
   display: flex;
   flex-direction: column;
   color: whitesmoke;
@@ -58,7 +58,7 @@ canvas {
 #main-section-description {
   overflow: hidden;
   height: 100vh;
-  width: 25vw;
+  width: 20vw;
   display: flex;
   flex-direction: column;
   color: whitesmoke;
@@ -108,6 +108,17 @@ canvas {
   opacity: 1;
   transition: visibility 0s linear 0s, opacity 700ms;
   transition-duration: 5s;
+}
+
+@media (max-aspect-ratio: 2/1) {
+  #main-section-title {
+    top: 18vh;
+    left: 11vw;
+  }
+
+  #main-section-description {
+    width: 25vw;
+  }
 }
 
 @media (max-aspect-ratio: 4/3) {
@@ -160,41 +171,14 @@ canvas {
   }
 }
 
-@media (aspect-ratio: 5/6) {
-  #main-section-title {
-    top: 6vh;
-    left: 25vw;
-  }
-
-  #main-section-description {
-    width: 55vw;
-  }
-
-  .main-section-header {
-    font-size: 2.25em;
-  }
-  
-  .main-section-subheader {
-    font-size: .65em;
-  }
-  
-  .main-section-subheader-fields {
-    font-size: .5em;
-  }
-  
-  .superscript-fields {
-    font-size: .4em;
-  }
-}
-
 @media (max-aspect-ratio: 5/6) {
   #main-section-title {
     top: 5.5vh;
-    left: 33.5vw;
+    left: 17.5vw;
   }
 
   #main-section-description {
-    width: 35vw;
+    width: 70vw;
   }
 
   .main-section-header {
@@ -202,11 +186,11 @@ canvas {
   }
   
   .main-section-subheader {
-    font-size: 1.25vw;
+    font-size: 1.5vw;
   }
   
   .main-section-subheader-fields {
-    font-size: 1vw;
+    font-size: 1.15vw;
   }
   
   .superscript-fields {
@@ -243,12 +227,12 @@ canvas {
 
 @media (max-aspect-ratio: 19/32) {
   #main-section-title {
-    top: 3vh;
-    left: 31.5vw;
+    top: 4vh;
+    left: 19.5vw;
   }
 
   #main-section-description {
-    width: 40vw;
+    width: 70vw;
   }
 
   .main-section-header {
@@ -256,11 +240,11 @@ canvas {
   }
   
   .main-section-subheader {
-    font-size: 1.8vw;
+    font-size: 2vw;
   }
   
   .main-section-subheader-fields {
-    font-size: 1.3vw;
+    font-size: 1.8vw;
   }
   
   .superscript-fields {
@@ -270,12 +254,12 @@ canvas {
 
 @media (max-aspect-ratio: 31/64) {
   #main-section-title {
-    top: 2.5vh;
-    left: 25vw;
+    top: 3vh;
+    left: 21.5vw;
   }
 
   #main-section-description {
-    width: 62.5vw;
+    width: 70vw;
   }
 
   .main-section-header {
@@ -287,7 +271,7 @@ canvas {
   }
   
   .main-section-subheader-fields {
-    font-size: 1.7vw;
+    font-size: 1.9vw;
   }
   
   .superscript-fields {
@@ -301,18 +285,18 @@ canvas {
   width: auto;
   height: 100vh;
   bottom: -16vh;
-  right: 10.5vw;
+  right: 8.5vw;
   display: flex;
   flex-direction: column;
   overflow: hidden;
   z-index: 1;
-  letter-spacing: .25em;
+  letter-spacing: .3em;
   font-size: 7.38vh;
   font-family: 'Oswald', sans-serif;
 }
 
 #main-section-nav-tags p{
-  margin-top:4.5vh;
+  margin-top:.6em;
   margin-bottom: 0;
 }
 
@@ -377,7 +361,6 @@ canvas {
     margin-bottom: 0;
   }
 }
-
 @media (max-aspect-ratio: 47/64) {
   #main-section-nav-tags {
     font-size: 5vw;
@@ -438,7 +421,8 @@ canvas {
 .homepage-welcome-text {
   font-size: 3em;
   text-align: center;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .2em;
   color: white;
   overflow: hidden;
   padding-bottom: 0;
@@ -448,7 +432,7 @@ canvas {
   display: inline-block;
   background-color: #ccc;
   margin-left: 0.1rem;
-  height: 3em;
+  height: 4.25em;
   animation: blink 1s infinite;
 }
 
@@ -470,7 +454,7 @@ canvas {
   }
   
   .cursor {
-    height: 2.75em;
+    height: 4em;
   }
 }
 
@@ -480,7 +464,7 @@ canvas {
   }
 
   .cursor {
-    height: 2.5em;
+    height: 3.75em;
   }
 }
 
@@ -490,7 +474,7 @@ canvas {
   }
 
   .cursor {
-    height: 2.25em;
+    height: 3.5em;
   }
 }
 
@@ -500,7 +484,7 @@ canvas {
   }
 
   .cursor {
-    height: 2em;
+    height: 3em;
   }
 }
 
@@ -510,7 +494,7 @@ canvas {
   }
 
   .cursor {
-    height: 1.75em;
+    height: 2.75em;
   }
 }
 
@@ -520,7 +504,7 @@ canvas {
   }
 
   .cursor {
-    height: 1.5em;
+    height: 2.5em;
   }
 }
 
@@ -530,7 +514,7 @@ canvas {
   }
 
   .cursor {
-    height: 1.25em;
+    height: 2em;
   }
 }
 
@@ -540,7 +524,7 @@ canvas {
   }
 
   .cursor {
-    height: 1em;
+    height: 1.75em;
   }
 }
 
@@ -558,10 +542,11 @@ canvas {
 
 #enter-button {
   top: 5vh;
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .2em;
   font-weight: bold;
   font-size: 1em;
-  padding: 1em 1.5em 1em 1.5em;
+  padding: 1em 1.5em 1.5em 1.5em;
   height: 1em;
   position: relative;
   color: white;
