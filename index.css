@@ -294,7 +294,7 @@ canvas {
 
 @media (max-aspect-ratio: 31/64) {
   #main-section-title {
-    top: 3vh;
+    top: 2.5vh;
     left: 25vw;
   }
 
