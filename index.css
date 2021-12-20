@@ -254,15 +254,18 @@ canvas {
 #main-section-nav-tags p{
   margin-top:.6em;
   margin-bottom: 0;
+  padding-top:0;
+  color: #101010;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 
-#main-section-nav-tags a{
+/* #main-section-nav-tags a{
   cursor: none;
   padding-top:0;
   text-decoration: none;
   color: #101010;
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
-}
+} */
 
 .main-section-nav-tags-hidden {
   visibility: hidden;
