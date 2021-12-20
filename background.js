@@ -7,7 +7,6 @@ const scene = new THREE.Scene();
 scene.background = new THREE.Color( 0x101010);
 const camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
 const renderer = new THREE.WebGLRenderer({antialias: true});
-var c;
 // Initialize necessary variables.
 var cancelAnimation;
 var cancelReverseAnimation;
@@ -220,6 +219,8 @@ function enterButtonClicked() {
             clearInterval(fadeEffect2);
         }
     }, 0);
+    document.getElementById("entry-section").classList.toggle("clear-entry-section");
+    document.getElementById("enter-button").classList.toggle("clear-entry-section");
     enterButtonStatus = 1;  // Update button status to end animate();
     cancelAnimationFrame(cancelAnimation);  // Cancel animate();
     animateReverse();  // Call reverse animation.
