@@ -259,6 +259,10 @@ canvas {
   text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
 }
 
+.main-section-nav-sup {
+  font-size: .8em;
+}
+
 /* #main-section-nav-tags a{
   cursor: none;
   padding-top:0;
