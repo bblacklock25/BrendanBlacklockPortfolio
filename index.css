@@ -358,10 +358,6 @@ canvas {
     margin-top:2vw;
     margin-bottom: 0;
   }
-  
-  .mobile-chrome-safari {
-    bottom: -70vh !important;
-  }
 }
 
 @media (max-aspect-ratio: 47/64) {
@@ -392,6 +388,10 @@ canvas {
   #main-section-nav-tags p{
     margin-top:.8em;
   }
+}
+
+.mobile-chrome-safari {
+  bottom: -66.5vh !important;
 }
 
 /* ENTRY SECTION CSS */
