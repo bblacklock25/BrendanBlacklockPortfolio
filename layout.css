@@ -11,7 +11,7 @@
   width: 100vw;
   top: 0vh;
   left: 0vw;
-  justify-content: space-around;
+  justify-content: center;
   z-index: 3;
 }
 
@@ -55,6 +55,7 @@
   position: fixed;
   height: auto;
   width: 100vw;
+  left: 0;
   bottom: 1.5vh;
   justify-content: center;
   z-index: 3;
@@ -74,7 +75,6 @@
 }
 
 .social-link-buttons {
-  padding:1em;
   cursor: none;
   transform: scale(.8);
   fill: #FFF;
@@ -98,63 +98,29 @@
   }
 }
 
-
 @media (max-aspect-ratio: 5/6) {
   #social-links {
-    bottom: 0vh;
+    bottom: -1vh;
   }
   .social-link-buttons {
     transform: scale(.45);
     padding-right: .1em;
     margin: 0vw;
   }
-
-  a.social-link-buttons {
-    padding: 0;
-  }
 } 
 
-@media (max-aspect-ratio: 47/64) {
-  #social-links {
-    bottom: 0vh;
-  }
-  .social-link-buttons {
-    transform: scale(.45);
-    padding-right: 0;
-    margin: -1vw;
-  }
-
-  a.social-link-buttons {
-    padding: 0;
-  }
-}
-
 @media (max-aspect-ratio: 19/32) {
-  #social-links {
-    bottom: 0vh;
-  }
   .social-link-buttons {
     transform: scale(.3);
     padding-right: 0;
     margin: -1vw;
-  }
-
-  a.social-link-buttons {
-    padding: 0;
   }
 }
 
 @media (max-aspect-ratio: 31/64) {
-  #social-links {
-    bottom: 0vh;
-  }
   .social-link-buttons {
     transform: scale(.3);
     padding-right: 0;
     margin: -1vw;
-  }
-
-  a.social-link-buttons {
-    padding: 0;
   }
 }

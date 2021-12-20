@@ -125,7 +125,7 @@ canvas {
   }
 }
 
-@media (max-aspect-ratio: 4/3) {
+ @media (max-aspect-ratio: 4/3) {
   #main-section-title {
     top: 27vh;
     left: 7.5vw;
@@ -178,12 +178,15 @@ canvas {
 @media (max-aspect-ratio: 5/6) {
   #main-section-title {
     top: 4.5vh;
-    left: 18vw;
+    left: 0vw;
     text-align: center;
+    justify-content: center;
+    width: 100%;
   }
 
   #main-section-description {
-    width: 65vw;
+    align-items: center;
+    width: 100%;
     text-align: center;
   }
 
@@ -196,82 +199,42 @@ canvas {
   }
   
   .main-section-subheader {
-    font-size:2.3vw;
+    font-size: 2.3vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    line-height: 2.6vh;
   }
 }
 
 @media (max-aspect-ratio: 47/64) {
-  #main-section-title {
-    top: 4.5vh;
-    left: 30vw;
-    text-align: center;
-  }
-
-  #main-section-description {
-    width: 40vw;
-    text-align: center;
-  }
-
-  #collapse-small-screen {
-    display: none;
-  }
-
   .main-section-header {
-    font-size: 8vw;
+    font-size: 11vw;
   }
   
   .main-section-subheader {
-    font-size:2.3vw;
+    font-size:2.75vw;
   }
 }
 
 @media (max-aspect-ratio: 19/32) {
-  #main-section-title {
-    top: 3.5vh;
-    left: 27.5vw;
-    text-align: center;
-  }
-
-  #main-section-description {
-    width: 45vw;
-    text-align: center;
-  }
-
-  #collapse-small-screen {
-    display: none;
-  }
-
-  .main-section-header {
-    font-size: 7.5vw;
-  }
-  
-  .main-section-subheader {
-    font-size:3vw;
-  }
-}
-
-@media (max-aspect-ratio: 31/64) {
-  #main-section-title {
-    top: 4vh;
-    left: 25.5vw;
-    text-align: center;
-  }
-
-  #main-section-description {
-    width: 50vw;
-    text-align: center;
-  }
-
-  #collapse-small-screen {
-    display: none;
-  }
-
   .main-section-header {
     font-size: 10vw;
   }
   
   .main-section-subheader {
-    font-size: 3.45vw;
+    font-size:2.9vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
+@media (max-aspect-ratio: 31/64) {
+  .main-section-header {
+    font-size: 10vw;
+  }
+  
+  .main-section-subheader {
+    font-size: 3.25vw;
   }
 }
 
@@ -372,14 +335,12 @@ canvas {
 
 @media (max-aspect-ratio: 1/1){
   #main-section-nav-tags {
-    font-size: 4vw;
     right: 5vw;
     bottom: -26vh;
   }
 
   #main-section-nav-tags p{
     margin-top: 4.5vw;
-    margin-bottom: 0;
   }
 }
 
@@ -387,70 +348,45 @@ canvas {
   #main-section-nav-tags {
     font-size: 4.5vw;
     letter-spacing: .4em;
-    left: 7vw;
+    left: .5vw;
     bottom: -62.5vh;
     align-items: center;
+    width: 100%;
 }
 
   #main-section-nav-tags p{
     margin-top:2vw;
     margin-bottom: 0;
   }
-  /* #main-section-nav-tags {
-    font-size: 1.5em;
-    letter-spacing: .4em;
-    left: 8vw;
-    top: 62.5vh;
-    align-items: center;
 }
 
-  #main-section-nav-tags p{
-    margin-top:2.75vw;
-    margin-bottom: 0;
-  } */
-}
 @media (max-aspect-ratio: 47/64) {
   #main-section-nav-tags {
-    font-size: 4.75vw;
-    letter-spacing: .4em;
-    left: 7.5vw;
-    bottom: -62.5vh;
-    align-items: center;
+    font-size: 5vw;
 }
 
   #main-section-nav-tags p{
-    margin-top:.5em;
-    margin-bottom: 0;
+    margin-top:1.75vh;
   }
 }
 
 @media (max-aspect-ratio: 19/32) {
   #main-section-nav-tags {
-    font-size: 5.5vw;
-    letter-spacing: .4em;
-    left: 7.25vw;
-    bottom: -61.5vh;
-    align-items: center;
+    font-size: 6vw;
 }
 
   #main-section-nav-tags p{
-    margin-top:.8em;
-    margin-bottom: 0;
+    margin-top:1.9vh;
   }
 }
 
 @media (max-aspect-ratio: 31/64) {
   #main-section-nav-tags {
     font-size: 7vw;
-    letter-spacing: .4em;
-    left: 8vw;
-    bottom: -61.5vh;
-    align-items: center;
 }
 
   #main-section-nav-tags p{
     margin-top:.8em;
-    margin-bottom: 0;
   }
 }
 
