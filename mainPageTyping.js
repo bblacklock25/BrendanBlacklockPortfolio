@@ -45,6 +45,7 @@ gitHub.addEventListener('mouseover', linkGrow);
 gitHub.addEventListener('mouseleave', linkShrink);
 youTube.addEventListener('mouseover', linkGrow);
 youTube.addEventListener('mouseleave', linkShrink);
+window.addEventListener('click', moveToAboutSection);
 
 
 function linkGrow() {
@@ -154,4 +155,8 @@ function resizeCorners() {
     document.getElementById("lowerLeft").width="100";
     document.getElementById("lowerRight").width="100";
   }
+}
+
+function moveToAboutSection() {
+  document.getElementById("main-body").classList.toggle("link-clicked");
 }
