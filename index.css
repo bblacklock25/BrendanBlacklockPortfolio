@@ -390,6 +390,10 @@ canvas {
   animation: none;
 }
 
+.clear-entry-section {
+  display: none;
+}
+
 @keyframes blink {
   0%  { background-color: #ccc; }
   49% { background-color: #ccc; }
