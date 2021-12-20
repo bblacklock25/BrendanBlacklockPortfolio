@@ -83,7 +83,7 @@ if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.use
 if (mobileDevice == 1) {
     document.getElementById('mobileCursor').remove();
     console.log(0);
-    if (/Chrome/.test(navigator.userAgent)) {
+    if (/Chrome/i.test(navigator.userAgent)) {
       console.log(1);
       document.getElementById("main-section-nav-tags").classList.toggle("mobile-chrome-safari");
     }
