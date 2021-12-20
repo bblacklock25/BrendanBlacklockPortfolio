@@ -80,7 +80,7 @@ if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.use
     mobileDevice = 0;
 }
 
-let chromeAgent = userAgentString.indexOf("Chrome") > -1;
+let chromeAgent = navigator.userAgent.indexOf("Chrome") > -1;
 
 if (mobileDevice == 1) {
     document.getElementById('mobileCursor').remove();
