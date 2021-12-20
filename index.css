@@ -325,7 +325,7 @@ canvas {
     letter-spacing: .4em;
     right: 3vw;
     bottom: -26vh;
-}
+  }
 
   #main-section-nav-tags p{
     margin-top:2.75vw;
@@ -352,18 +352,22 @@ canvas {
     bottom: -62.5vh;
     align-items: center;
     width: 100%;
-}
+  }
 
   #main-section-nav-tags p{
     margin-top:2vw;
     margin-bottom: 0;
+  }
+  
+  .mobile-chrome-safari {
+    bottom: -70vh;
   }
 }
 
 @media (max-aspect-ratio: 47/64) {
   #main-section-nav-tags {
     font-size: 5vw;
-}
+  }
 
   #main-section-nav-tags p{
     margin-top:1.75vh;
@@ -373,7 +377,7 @@ canvas {
 @media (max-aspect-ratio: 19/32) {
   #main-section-nav-tags {
     font-size: 6vw;
-}
+  }
 
   #main-section-nav-tags p{
     margin-top:1.9vh;
@@ -383,15 +387,11 @@ canvas {
 @media (max-aspect-ratio: 31/64) {
   #main-section-nav-tags {
     font-size: 7vw;
-}
+  }
 
   #main-section-nav-tags p{
     margin-top:.8em;
   }
-}
-
-.mobile-chrome-safari {
-  bottom: -70vh;
 }
 
 /* ENTRY SECTION CSS */
