@@ -352,6 +352,7 @@ canvas {
     bottom: -62.5vh;
     align-items: center;
     width: 100%;
+    -webkit-transform: translateZ(0);
 }
 
   #main-section-nav-tags p{
