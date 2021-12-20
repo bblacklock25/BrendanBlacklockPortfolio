@@ -101,6 +101,10 @@ if (mobileDevice == 1) {
       document.getElementById("main-section-title").classList.toggle("mobile-chrome-safari-top");
       document.getElementById("main-section-nav-tags").classList.toggle("mobile-chrome-safari-bottom");
     }
+    else if (browserName == "Edge ( chromium based)") {
+      document.getElementById("main-section-title").classList.remove("mobile-chrome-safari-top");
+      document.getElementById("main-section-nav-tags").classList.remove("mobile-chrome-safari-bottom");
+    }
 }
 
 

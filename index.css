@@ -239,7 +239,7 @@ canvas {
 }
 
 .mobile-chrome-safari-top {
-  top: 3vh !important;
+  top: 3.25vh !important;
 }
 
 /* @media (max-aspect-ratio: 580/963) {
@@ -395,7 +395,7 @@ canvas {
 }
 
 .mobile-chrome-safari-bottom {
-  bottom: -67vh !important;
+  bottom: -66.5vh !important;
 }
 
 /* ENTRY SECTION CSS */
