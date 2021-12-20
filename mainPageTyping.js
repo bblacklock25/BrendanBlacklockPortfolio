@@ -98,7 +98,8 @@ if (mobileDevice == 1) {
     console.log(0);
     if (browserName == "Chrome" || browserName == "Safari") {
       console.log(1);
-      document.getElementById("main-section-nav-tags").classList.toggle("mobile-chrome-safari");
+      document.getElementById("main-section-header").classList.toggle("mobile-chrome-safari-top");
+      document.getElementById("main-section-nav-tags").classList.toggle("mobile-chrome-safari-bottom");
     }
 }
 

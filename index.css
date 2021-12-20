@@ -238,6 +238,10 @@ canvas {
   }
 }
 
+.mobile-chrome-safari-top {
+  top: 3vh !important;
+}
+
 /* @media (max-aspect-ratio: 580/963) {
   #main-section-title {
     top: 6vh;
@@ -390,8 +394,8 @@ canvas {
   }
 }
 
-.mobile-chrome-safari {
-  bottom: -63vh !important;
+.mobile-chrome-safari-bottom {
+  bottom: -64vh !important;
 }
 
 /* ENTRY SECTION CSS */
