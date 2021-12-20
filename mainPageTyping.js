@@ -46,11 +46,6 @@ gitHub.addEventListener('mouseleave', linkShrink);
 youTube.addEventListener('mouseover', linkGrow);
 youTube.addEventListener('mouseleave', linkShrink);
 
-function chromeSafari() {
-  let userAgent = navigator.userAgent;
-
-
-}
 
 function linkGrow() {
   if (mobileDevice == 0) {
@@ -84,7 +79,7 @@ if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.use
 } else{
     mobileDevice = 0;
 }
-
+let userAgent = navigator.userAgent;
 if (mobileDevice == 1) {
     document.getElementById('mobileCursor').remove();
     if (userAgent.match(/chrome|safari/i)) {
