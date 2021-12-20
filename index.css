@@ -360,7 +360,7 @@ canvas {
   }
   
   .mobile-chrome-safari {
-    bottom: -70vh;
+    bottom: -70vh !important;
   }
 }
 
