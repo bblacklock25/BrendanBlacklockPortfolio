@@ -96,14 +96,10 @@ var browserName = (function (agent) {
 if (mobileDevice == 1) {
     document.getElementById('mobileCursor').remove();
     console.log(0);
-    if (browserName == "Chrome" || browserName == "Safari") {
+    if (browserName == "Chrome") {
       console.log(1);
       document.getElementById("main-section-title").classList.toggle("mobile-chrome-safari-top");
       document.getElementById("main-section-nav-tags").classList.toggle("mobile-chrome-safari-bottom");
-    }
-    else if (browserName == "Edge ( chromium based)") {
-      document.getElementById("main-section-title").classList.remove("mobile-chrome-safari-top");
-      document.getElementById("main-section-nav-tags").classList.remove("mobile-chrome-safari-bottom");
     }
 }
 
