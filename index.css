@@ -58,7 +58,7 @@ canvas {
 #main-section-description {
   overflow: hidden;
   height: 100vh;
-  width: 20vw;
+  width: 23vw;
   display: flex;
   flex-direction: column;
   color: whitesmoke;
@@ -72,16 +72,16 @@ canvas {
 
 .main-section-header {
   font-family: 'Oswald', sans-serif;
-  font-size: 12vh;
+  font-size: 13vh;
   letter-spacing: .25em;
   margin: 0;
 }
 
 .main-section-subheader {
   Font-Family: 'Quattrocento', Serif;
-  font-size: 1.6vh;
-  line-height: 1.25em;
-  letter-spacing: .25em;
+  font-size: 3vh;
+  line-height: 3.75vh;
+  letter-spacing: .15em;
   margin-bottom: 0;
 }
 
@@ -121,7 +121,11 @@ canvas {
   }
 
   #main-section-description {
-    width: 25vw;
+    width: 27.25vw;
+  }
+
+  .main-section-subheader {
+    font-size: 2.4vh;
   }
 }
 
@@ -132,23 +136,15 @@ canvas {
   }
 
   #main-section-description {
-    width: 25vw;
+    width: 27vw;
   }
 
   .main-section-header {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   
   .main-section-subheader {
-    font-size: 1.1vw;
-  }
-  
-  .main-section-subheader-fields {
-    font-size: .8vw;
-  }
-  
-  .superscript-fields {
-    font-size: .6vw;
+    font-size: 1.7vw;
   }
 }
 
@@ -158,20 +154,17 @@ canvas {
     top: 26vh;
   }
 
+  
+  #main-section-description {
+    width: 28vw;
+  }
+
   .main-section-header {
     font-size: 5vw;
   }
   
   .main-section-subheader {
-    font-size: 1.3vw;
-  }
-  
-  .main-section-subheader-fields {
-    font-size: 1.1vw;
-  }
-  
-  .superscript-fields {
-    font-size: .8vw;
+    font-size: 1.9vw;
   }
 }
 
@@ -236,10 +229,6 @@ canvas {
   .main-section-subheader {
     font-size: 3.25vw;
   }
-}
-
-.mobile-chrome-safari-top {
-  top: 3.25vh !important;
 }
 
 /* @media (max-aspect-ratio: 580/963) {
@@ -325,26 +314,28 @@ canvas {
 
 @media (max-aspect-ratio: 4/3) {
   #main-section-nav-tags {
-    font-size: 4vw;
-    letter-spacing: .4em;
+    font-size: 5vh;
+    letter-spacing: .35em;
     right: 3vw;
-    bottom: -26vh;
-  }
+    bottom: -24vh;
+}
 
   #main-section-nav-tags p{
-    margin-top:2.75vw;
+    margin-top:.8em;
     margin-bottom: 0;
   }
 }
 
 @media (max-aspect-ratio: 1/1){
   #main-section-nav-tags {
-    right: 5vw;
-    bottom: -26vh;
+    font-size: 4vh;
+    letter-spacing: .35em;
+    right: 4.5vw;
+    bottom: -27vh;
   }
 
   #main-section-nav-tags p{
-    margin-top: 4.5vw;
+    margin-top:1em;
   }
 }
 
@@ -362,12 +353,16 @@ canvas {
     margin-top:2vw;
     margin-bottom: 0;
   }
+
+  .mobile-safari-chrome {
+    bottom: -70vh;
+  }
 }
 
 @media (max-aspect-ratio: 47/64) {
   #main-section-nav-tags {
     font-size: 5vw;
-  }
+}
 
   #main-section-nav-tags p{
     margin-top:1.75vh;
@@ -377,7 +372,7 @@ canvas {
 @media (max-aspect-ratio: 19/32) {
   #main-section-nav-tags {
     font-size: 6vw;
-  }
+}
 
   #main-section-nav-tags p{
     margin-top:1.9vh;
@@ -387,15 +382,11 @@ canvas {
 @media (max-aspect-ratio: 31/64) {
   #main-section-nav-tags {
     font-size: 7vw;
-  }
+}
 
   #main-section-nav-tags p{
     margin-top:.8em;
   }
-}
-
-.mobile-chrome-safari-bottom {
-  bottom: -66.5vh !important;
 }
 
 /* ENTRY SECTION CSS */
@@ -430,10 +421,6 @@ canvas {
 
 .cursor.typing {
   animation: none;
-}
-
-.clear-entry-section {
-  display: none;
 }
 
 @keyframes blink {
