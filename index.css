@@ -278,14 +278,14 @@ canvas {
 
 @media (max-aspect-ratio: 4/3) {
   #main-section-nav-tags {
-    font-size: 5vh;
+    font-size: 5.25vh;
     letter-spacing: .35em;
-    right: 3vw;
-    bottom: -24vh;
-}
+    right: 4vw;
+    bottom: -26vh;
+  }
 
   #main-section-nav-tags p{
-    margin-top:.8em;
+    margin-top:.65em;
     margin-bottom: 0;
   }
 }
