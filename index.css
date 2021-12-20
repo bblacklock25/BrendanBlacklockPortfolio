@@ -231,32 +231,9 @@ canvas {
   }
 }
 
-/* @media (max-aspect-ratio: 580/963) {
-  #main-section-title {
-    top: 6vh;
-    left: 27vw;
-  }
-
-  #main-section-description {
-    width: 55vw;
-  }
-
-  .main-section-header {
-    font-size: 2em;
-  }
-  
-  .main-section-subheader {
-    font-size: .6em;
-  }
-  
-  .main-section-subheader-fields {
-    font-size: .5em;
-  }
-  
-  .superscript-fields {
-    font-size: .4em;
-  }
-} */
+.mobile-chrome-safari-top {
+  top: 3.25vh !important;
+}
 
 /* MAIN SECTION NAV TAGS CSS */
 #main-section-nav-tags {
@@ -299,19 +276,6 @@ canvas {
   transition-duration: 5s;
 }
 
-/* @media (max-aspect-ratio: 677/839) {
-  #main-section-nav-tags {
-    font-size: 20vw;
-    right: 8vw;
-    top: 26vh;
-  }
-
-  #main-section-nav-tags p{
-    margin-top:4.5vw;
-    margin-bottom: 0;
-  }
-} */
-
 @media (max-aspect-ratio: 4/3) {
   #main-section-nav-tags {
     font-size: 5vh;
@@ -353,10 +317,6 @@ canvas {
     margin-top:2vw;
     margin-bottom: 0;
   }
-
-  .mobile-safari-chrome {
-    bottom: -70vh;
-  }
 }
 
 @media (max-aspect-ratio: 47/64) {
@@ -387,6 +347,10 @@ canvas {
   #main-section-nav-tags p{
     margin-top:.8em;
   }
+}
+
+.mobile-chrome-safari-bottom {
+  bottom: -66.5vh !important;
 }
 
 /* ENTRY SECTION CSS */
