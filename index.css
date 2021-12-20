@@ -306,6 +306,10 @@ canvas {
   transition-duration: 5s;
 }
 
+.mobile-chrome-safari {
+  bottom: -70vh;
+}
+
 /* @media (max-aspect-ratio: 677/839) {
   #main-section-nav-tags {
     font-size: 20vw;
@@ -352,7 +356,6 @@ canvas {
     bottom: -62.5vh;
     align-items: center;
     width: 100%;
-    -webkit-transform: translateZ(0);
 }
 
   #main-section-nav-tags p{

@@ -17,7 +17,6 @@ const projects = document.querySelector('[title="Projects"]');
 const resume = document.querySelector('[title="Resume"]');
 const contact = document.querySelector('[title="Contact"]');
 const linkedIn = document.querySelector('#linkedin-social');
-// const discord = document.querySelector('#discord-social');
 const gitHub = document.querySelector('#github-social');
 const youTube = document.querySelector('#youtube-social');
 
@@ -42,12 +41,16 @@ contact.addEventListener('mouseover', linkGrowBig);
 contact.addEventListener('mouseleave', linkShrink);
 linkedIn.addEventListener('mouseover', linkGrow);
 linkedIn.addEventListener('mouseleave', linkShrink);
-// discord.addEventListener('mouseover', linkGrow);
-// discord.addEventListener('mouseleave', linkShrink);
 gitHub.addEventListener('mouseover', linkGrow);
 gitHub.addEventListener('mouseleave', linkShrink);
 youTube.addEventListener('mouseover', linkGrow);
 youTube.addEventListener('mouseleave', linkShrink);
+
+function chromeSafari() {
+  let userAgent = navigator.userAgent;
+
+
+}
 
 function linkGrow() {
   if (mobileDevice == 0) {
@@ -84,7 +87,12 @@ if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.use
 
 if (mobileDevice == 1) {
     document.getElementById('mobileCursor').remove();
+    if (userAgent.match(/chrome|safari/i)) {
+      document.getElementById("main-section-nav-tags").classList.toggle("mobile-chrome-safari");
+    }
 }
+
+
 
 function type() {
   if (charIndex < textArray[textArrayIndex].length) {
