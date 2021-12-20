@@ -596,10 +596,12 @@ canvas {
 
 .enter-button-hidden {
   visibility: hidden;
+  display: none;
   opacity: 0;
 }
 
 .enter-button-fadein {
+  display: block;
   visibility: visible;
   opacity: 1;
   transition: visibility 0s linear 0s, opacity 700ms;
