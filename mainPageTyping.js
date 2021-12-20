@@ -29,23 +29,29 @@ document.addEventListener("DOMContentLoaded", function() {
 document.addEventListener("DOMContentLoaded", resizeCorners);
 window.addEventListener('resize', resizeCorners);
 window.addEventListener('mousemove', cursor);
+
 header.addEventListener('mouseover', linkGrow);
 header.addEventListener('mouseleave', linkShrink);
+
 about.addEventListener('mouseover', linkGrowBig);
 about.addEventListener('mouseleave', linkShrink);
+about.addEventListener('click', moveToAboutSection);
+
 projects.addEventListener('mouseover', linkGrowBig);
 projects.addEventListener('mouseleave', linkShrink);
+
 resume.addEventListener('mouseover', linkGrowBig);
 resume.addEventListener('mouseleave', linkShrink);
+
 contact.addEventListener('mouseover', linkGrowBig);
 contact.addEventListener('mouseleave', linkShrink);
+
 linkedIn.addEventListener('mouseover', linkGrow);
 linkedIn.addEventListener('mouseleave', linkShrink);
 gitHub.addEventListener('mouseover', linkGrow);
 gitHub.addEventListener('mouseleave', linkShrink);
 youTube.addEventListener('mouseover', linkGrow);
 youTube.addEventListener('mouseleave', linkShrink);
-window.addEventListener('click', moveToAboutSection);
 
 
 function linkGrow() {
