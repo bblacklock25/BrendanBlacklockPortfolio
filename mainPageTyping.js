@@ -79,11 +79,13 @@ if(/Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.use
 } else{
     mobileDevice = 0;
 }
-let userAgent = navigator.userAgent;
+
+let chromeAgent = userAgentString.indexOf("Chrome") > -1;
+
 if (mobileDevice == 1) {
     document.getElementById('mobileCursor').remove();
     console.log(0);
-    if (userAgent.match(/chrome|safari/i)) {
+    if (chromeAgent) {
       console.log(1);
       document.getElementById("main-section-nav-tags").classList.toggle("mobile-chrome-safari");
     }
