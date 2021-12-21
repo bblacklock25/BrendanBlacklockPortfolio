@@ -1,6 +1,6 @@
 // Import libraries
-import * as THREE from '/three.module.js';
-import { FlakesTexture } from '/FlakesTexture.js';
+import * as THREE from '/BrendanBlacklockPortfolio/three.module.js';
+import { FlakesTexture } from '/BrendanBlacklockPortfolio/FlakesTexture.js';
 
 // Define constants needed from three.js to create scene.
 const scene = new THREE.Scene();
