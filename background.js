@@ -251,7 +251,7 @@ function fovZoom() {
             if (navbarChecked == 0) {
                 // // Fadein navbar and heading.
                 document.getElementById('navbar').classList.toggle('navbar-fadein');
-                document.getElementById('main-section-title').classList.toggle('main-section-title-fadein');
+                document.getElementById('main-body').classList.toggle('main-section-title-fadein');
                 document.getElementById('main-section-nav-tags').classList.toggle('main-section-nav-tags-fadein');
                 document.getElementById('social-links').classList.toggle('social-links-fadein');
                 navbarChecked = 1;

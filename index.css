@@ -41,7 +41,7 @@ canvas {
 }
 
 /* MAIN SECTION TITLE CSS */
-#main-section-title {
+#section-title {
   position: fixed;
   overflow: hidden;
   height: 100vh;
@@ -102,12 +102,12 @@ canvas {
   color: #21ebff;
 }
 
-.main-section-title-hidden {
+.section-title-hidden {
   visibility: hidden;
   opacity: 0;
 }
 
-.main-section-title-fadein {
+.section-title-fadein {
   visibility: visible;
   opacity: 1;
   transition: visibility 0s linear 0s, opacity 700ms;
@@ -115,7 +115,7 @@ canvas {
 }
 
 @media (max-aspect-ratio: 2/1) {
-  #main-section-title {
+  #section-title {
     top: 18vh;
     left: 11vw;
   }
@@ -130,7 +130,7 @@ canvas {
 }
 
  @media (max-aspect-ratio: 4/3) {
-  #main-section-title {
+  #section-title {
     top: 27vh;
     left: 7.5vw;
   }
@@ -149,7 +149,7 @@ canvas {
 }
 
 @media (max-aspect-ratio: 1/1) {
-  #main-section-title {
+  #section-title {
     left: 7vw;
     top: 26vh;
   }
@@ -169,7 +169,7 @@ canvas {
 }
 
 @media (max-aspect-ratio: 5/6) {
-  #main-section-title {
+  #section-title {
     top: 4.5vh;
     left: 0vw;
     text-align: center;
