@@ -1,6 +1,6 @@
 // Import libraries
-import * as THREE from '/BrendanBlacklockPortfolio/three.module.js';
-import { FlakesTexture } from '/BrendanBlacklockPortfolio/FlakesTexture.js';
+import * as THREE from '/three.module.js';
+import { FlakesTexture } from '/FlakesTexture.js';
 
 // Define constants needed from three.js to create scene.
 const scene = new THREE.Scene();
@@ -197,7 +197,6 @@ if (enterButtonStatus == 0) {
 function enterButtonClicked() {
     // Initialize fade targets (main section and button)
     var fadeTarget = document.getElementById("entry-section");
-    var fadeTarget2 = document.getElementById("enter-button");
     // Initialize timer function to fade target elements. 
     var fadeEffect = setInterval(function () {
         if (!fadeTarget.style.opacity) {
@@ -206,21 +205,10 @@ function enterButtonClicked() {
         if (fadeTarget.style.opacity > 0) {
             fadeTarget.style.opacity -= 0.1;
         } else {
+            fadeTarget.classList.toggle('hidden');
             clearInterval(fadeEffect);
         }
     }, 50);
-    var fadeEffect2 = setInterval(function () {
-        if (!fadeTarget2.style.opacity) {
-            fadeTarget2.style.opacity = 1;
-        }
-        if (fadeTarget2.style.opacity > 0) {
-            fadeTarget2.style.opacity -= 0.1;
-        } else {
-            clearInterval(fadeEffect2);
-        }
-    }, 0);
-    document.getElementById("entry-section").classList.toggle("clear-entry-section");
-    document.getElementById("enter-button").classList.toggle("clear-entry-section");
     enterButtonStatus = 1;  // Update button status to end animate();
     cancelAnimationFrame(cancelAnimation);  // Cancel animate();
     animateReverse();  // Call reverse animation.
@@ -250,10 +238,9 @@ function fovZoom() {
             scene.add(torusInner);
             if (navbarChecked == 0) {
                 // // Fadein navbar and heading.
-                document.getElementById('navbar').classList.toggle('navbar-fadein');
-                document.getElementById('main-section-title').classList.toggle('main-section-title-fadein');
-                document.getElementById('main-section-nav-tags').classList.toggle('main-section-nav-tags-fadein');
-                document.getElementById('social-links').classList.toggle('social-links-fadein');
+                document.getElementById('navbar').classList.toggle('section-fadein');
+                document.getElementById('main-section').classList.toggle('section-fadein');
+                document.getElementById('social-links').classList.toggle('section-fadein');
                 navbarChecked = 1;
             }
             scene.remove(sphereOutermost);  // Remove outermost sphere.
@@ -265,5 +252,5 @@ function fovZoom() {
             cancelAnimationFrame(cancelReverseAnimation);
             animateFinal();
         }
-    }, 1);
+    }, 0.5);
 }

@@ -1,0 +1,270 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,900&display=swap');
+
+/* SECTION ONE CSS */
+.section-one {
+  position: fixed;
+  overflow: hidden;
+  height: 100vh;
+  width: auto;
+  top: 17vh;
+  left: 11vw;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  overflow: hidden;
+  z-index: 1;
+}
+
+#main-section-one-text {
+  overflow: hidden;
+  height: 100vh;
+  width: 23vw;
+  display: flex;
+  flex-direction: column;
+  color: whitesmoke;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-header {
+  font-family: 'Oswald', sans-serif;
+  font-size: 13vh;
+  letter-spacing: .25em;
+  margin: 0;
+}
+
+.section-subheader {
+  Font-Family: 'Quattrocento', Serif;
+  font-size: 3vh;
+  line-height: 4.25vh;
+  letter-spacing: .15em;
+  margin-bottom: 0;
+}
+
+
+/* MEDIA QUERIES */
+@media (max-aspect-ratio: 2/1) {
+  .section-one {
+    top: 22vh;
+    left: 11vw;
+  }
+
+  #main-section-one-text {
+    width: 27.25vw;
+  }
+
+  .section-header {
+    font-size: 10vh;
+  }
+  .section-subheader {
+    font-size: 2.4vh;
+  }
+}
+
+ @media (max-aspect-ratio: 4/3) {
+  .section-one {
+    top: 25vh;
+    left: 7.5vw;
+  }
+
+  #main-section-one-text {
+    width: 27vw;
+  }
+
+  .section-header {
+    font-size: 6vw;
+  }
+  
+  .section-subheader {
+    font-size: 1.7vw;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) {
+  .section-one {
+    left: 7vw;
+    top: 26vh;
+  }
+  
+  #main-section-one-text {
+    width: 28vw;
+  }
+
+  .section-header {
+    font-size: 5vw;
+  }
+  
+  .section-subheader {
+    font-size: 1.9vw;
+  }
+}
+
+.mobile-chrome-safari-top {
+    top: 3.25vh !important;
+}
+
+@media (max-aspect-ratio: 5/6) {
+  .section-one {
+    top: 4.5vh;
+    left: 0vw;
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  #main-section-one-text {
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+
+  .section-header {
+    font-size: 10vw;
+  }
+  
+  .section-subheader {
+    font-size: 2.3vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    line-height: 2.6vh;
+  }
+}
+
+@media (max-aspect-ratio: 47/64) {
+  .section-header {
+    font-size: 11vw;
+  }
+  
+  .section-subheader {
+    font-size:2.75vw;
+  }
+}
+
+@media (max-aspect-ratio: 19/32) {
+  .section-header {
+    font-size: 10vw;
+  }
+  
+  .section-subheader {
+    font-size:2.9vw;
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
+@media (max-aspect-ratio: 31/64) {
+  .section-header {
+    font-size: 10vw;
+  }
+  
+  .section-subheader {
+    font-size: 3.25vw;
+  }
+}
+
+/* SECTION TWO CSS */
+.section-two {
+  position: fixed;
+  width: auto;
+  height: 100vh;
+  bottom: -15vh;
+  right: 8.5vw;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.section-two p{
+  margin-top:5.5vh;
+  margin-bottom: 0;
+  padding-top:0;
+  color: #101010;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  letter-spacing: .3em;
+  font-size: 7.38vh;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media (max-aspect-ratio: 2/1) {
+  .section-two {
+    right: 8vw;
+    bottom: -20vh;
+  }
+
+  .section-two p{
+    margin-top:3.5vh;
+    margin-bottom: 0;
+    font-size: 7vh;
+    letter-spacing: .3em;
+  }
+  }
+
+@media (max-aspect-ratio: 4/3) {
+  .section-two {
+    right: 5vw;
+    bottom: -24vh;
+  }
+
+  .section-two p{
+    margin-top:.65em;
+    margin-bottom: 0;
+    font-size: 5.5vh;
+    letter-spacing: .25em;
+  }
+}
+
+@media (max-aspect-ratio: 1/1){
+  .section-two {
+    right: 4.5vw;
+    bottom: -27vh;
+  }
+
+  .section-two p{
+    margin-top:1em;
+    font-size: 4vh;
+    letter-spacing: .35em;
+  }
+}
+
+@media (max-aspect-ratio: 5/6) {
+  .section-two {
+    left: .5vw;
+    bottom: -62.5vh;
+    align-items: center;
+    width: 100%;
+  }
+
+  .section-two p{
+    margin-top:2vw;
+    margin-bottom: 0;
+    font-size: 4.5vw;
+    letter-spacing: .4em;
+  }
+}
+
+@media (max-aspect-ratio: 47/64) {
+  .section-two p{
+    margin-top:1.75vh;
+    font-size: 5vw;
+  }
+}
+
+@media (max-aspect-ratio: 19/32) {
+  .section-two p{
+    margin-top:1.9vh;
+    font-size: 6vw;
+  }
+}
+
+@media (max-aspect-ratio: 31/64) {
+  .section-two p{
+    margin-top:.8em;
+    font-size: 7vw;
+  }
+}
+
+.mobile-chrome-safari-bottom {
+  bottom: -66.5vh !important;
+}

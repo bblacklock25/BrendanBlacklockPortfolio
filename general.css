@@ -1,0 +1,14 @@
+.section-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.section-fadein {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 4s;
+}
+
+.hidden {
+  display: none;
+}

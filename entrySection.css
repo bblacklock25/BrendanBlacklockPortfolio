@@ -1,0 +1,213 @@
+/* ENTER SECTION TEXT CSS */
+.enter-section-text {
+  position: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  top: 35vh;
+  left: -0.05vw;
+  display: flex;
+  justify-content: center;
+}
+
+#homepage-welcome-text {
+  font-size: 3em;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .2em;
+  color: white;
+  overflow: hidden;
+  padding-bottom: 0;
+}
+
+#cursor {
+  display: inline-block;
+  background-color: #ccc;
+  margin-left: 0.1rem;
+  height: 4.25em;
+  animation: blink 1s infinite;
+}
+
+#cursor.typing {
+  animation: none;
+}
+
+@keyframes blink {
+  0%  { background-color: #ccc; }
+  49% { background-color: #ccc; }
+  50% { background-color: transparent; }
+  99% { background-color: transparent; }
+  100%  { background-color: #ccc; }
+}
+
+@media (max-width: 745px) {
+  #homepage-welcome-text {
+    font-size: 2.75em;
+  }
+  
+  #cursor {
+    height: 4em;
+  }
+}
+
+@media (max-width: 700px) {
+  #homepage-welcome-text {
+    font-size: 2.5em;
+  }
+
+  #cursor {
+    height: 3.75em;
+  }
+}
+
+@media (max-width: 610px) {
+  #homepage-welcome-text {
+    font-size: 2.25em;
+  }
+
+  #cursor {
+    height: 3.5em;
+  }
+}
+
+@media (max-width: 550px) {
+  #homepage-welcome-text {
+    font-size: 2em;
+  }
+
+  #cursor {
+    height: 3em;
+  }
+}
+
+@media (max-width: 480px) {
+  #homepage-welcome-text {
+    font-size: 1.75em;
+  }
+
+  #cursor {
+    height: 2.75em;
+  }
+}
+
+@media (max-width: 450px) {
+  #homepage-welcome-text {
+    font-size: 1.5em;
+  }
+
+  #cursor {
+    height: 2.5em;
+  }
+}
+
+@media (max-width: 380px) {
+  #homepage-welcome-text {
+    font-size: 1.25em;
+  }
+
+  #cursor {
+    height: 2em;
+  }
+}
+
+@media (max-width: 320px) {
+  #homepage-welcome-text {
+    font-size: 1em;
+  }
+
+  #cursor {
+    height: 1.75em;
+  }
+}
+
+/* ENTRY BUTTON CSS */
+.enter-section-button {
+  position: fixed;
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  top: 42.5vh;
+  left: -0.05vw;
+  display: flex;
+  justify-content: center;
+}
+
+#enter-button {
+  top: 5vh;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .2em;
+  font-weight: bold;
+  font-size: 1em;
+  padding: 1em 1.5em 1.5em 1.5em;
+  height: 1em;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  transition: 0.75s;
+  overflow: hidden;
+}
+
+#enter-button:hover {
+  background: #21ebff;
+  color: #111;
+  box-shadow: 0 0 2em #21ebff;
+  transition-delay: 0.75s;
+}
+
+#enter-button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  border-top: .25em solid white;
+  border-left: .25em solid white;
+  transition: 0.75s;
+}
+
+#enter-button:hover:before {
+  width: 100%;
+  height: 100%;
+  transition-delay: 0s;
+  border-top: .25em solid #21ebff;
+  border-left: .25em solid #21ebff;
+}
+
+#enter-button::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  border-bottom: .25em solid white;
+  border-right: .25em solid white;
+  transition: 0.75s;
+}
+
+#enter-button:hover:after {
+  width: 100%;
+  height: 100%;
+  transition-delay: 0s;
+  border-bottom: .25em solid #21ebff;
+  border-right: .25em solid #21ebff;
+}
+
+@media (max-height: 620px) {
+  #enter-button {
+    top: 10vh;
+  }
+}
+
+@media (max-height: 500px) {
+  #enter-button {
+    top: 15vh;
+  }
+}
+
+@media (max-height: 300px) {
+  #enter-button {
+    top: 25vh;
+  }
+}
