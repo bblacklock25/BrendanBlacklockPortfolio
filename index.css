@@ -70,14 +70,14 @@ canvas {
   display: block;
 }
 
-.main-section-header {
+.section-header {
   font-family: 'Oswald', sans-serif;
   font-size: 13vh;
   letter-spacing: .25em;
   margin: 0;
 }
 
-.main-section-subheader {
+.section-subheader {
   Font-Family: 'Quattrocento', Serif;
   font-size: 3vh;
   line-height: 3.75vh;
@@ -85,7 +85,7 @@ canvas {
   margin-bottom: 0;
 }
 
-.main-section-subheader-fields {
+.section-subheader-fields {
   Font-Family: 'Quattrocento', Serif;
   font-size: 1.52vh;
   letter-spacing: .25em;
@@ -124,7 +124,7 @@ canvas {
     width: 27.25vw;
   }
 
-  .main-section-subheader {
+  .section-subheader {
     font-size: 2.4vh;
   }
 }
@@ -139,11 +139,11 @@ canvas {
     width: 27vw;
   }
 
-  .main-section-header {
+  .section-header {
     font-size: 6vw;
   }
   
-  .main-section-subheader {
+  .section-subheader {
     font-size: 1.7vw;
   }
 }
@@ -159,11 +159,11 @@ canvas {
     width: 28vw;
   }
 
-  .main-section-header {
+  .section-header {
     font-size: 5vw;
   }
   
-  .main-section-subheader {
+  .section-subheader {
     font-size: 1.9vw;
   }
 }
@@ -187,11 +187,11 @@ canvas {
     display: none;
   }
 
-  .main-section-header {
+  .section-header {
     font-size: 10vw;
   }
   
-  .main-section-subheader {
+  .section-subheader {
     font-size: 2.3vw;
     margin-left: 20vw;
     margin-right: 20vw;
@@ -200,21 +200,21 @@ canvas {
 }
 
 @media (max-aspect-ratio: 47/64) {
-  .main-section-header {
+  .section-header {
     font-size: 11vw;
   }
   
-  .main-section-subheader {
+  .section-subheader {
     font-size:2.75vw;
   }
 }
 
 @media (max-aspect-ratio: 19/32) {
-  .main-section-header {
+  .section-header {
     font-size: 10vw;
   }
   
-  .main-section-subheader {
+  .section-subheader {
     font-size:2.9vw;
     margin-left: 20vw;
     margin-right: 20vw;
@@ -222,11 +222,11 @@ canvas {
 }
 
 @media (max-aspect-ratio: 31/64) {
-  .main-section-header {
+  .section-header {
     font-size: 10vw;
   }
   
-  .main-section-subheader {
+  .section-subheader {
     font-size: 3.25vw;
   }
 }
@@ -626,4 +626,18 @@ canvas {
   bottom:0vw;
   right:.3vw;
   transform: rotate(180deg);
+}
+
+/* ABOUT SECTION CSS*/
+
+.about-section-hidden {
+  visibility: hidden;
+  opacity: 0;
+}
+
+.about-section-fadein {
+  visibility: visible;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 700ms;
+  transition-duration: 5s;
 }

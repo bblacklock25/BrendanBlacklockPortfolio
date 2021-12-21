@@ -180,20 +180,5 @@ function toggleMainAboutSection() {
       passive: false
     });
   }
-  let aboutSection = document.getElementById("about-section");
-  if (aboutSection.classList.contains('hidden')) {
-    aboutSection.classList.remove('hidden');
-    setTimeout(function() {
-      aboutSection.classList.remove('visuallyhidden');
-    }, 50);
-  } else {
-    aboutSection.classList.add('visuallyhidden');
-    aboutSection.addEventListener('transitioned', function(e) {
-      aboutSection.classList.add('hidden');
-    }, {
-      capture: false,
-      once: true,
-      passive: false
-    });
-  }
+  document.getElementById('about-section').classList.toggle('about-section-fadein');
 };
