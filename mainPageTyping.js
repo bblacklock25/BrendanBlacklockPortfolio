@@ -105,11 +105,11 @@ if (mobileDevice == 1) {
     console.log(0);
     if (browserName == "Chrome" || browserName == "Safari") {
       console.log(1);
-      document.getElementById("section-title").classList.toggle("mobile-chrome-safari-top");
+      document.getElementById("main-section-title").classList.toggle("mobile-chrome-safari-top");
       document.getElementById("main-section-nav-tags").classList.toggle("mobile-chrome-safari-bottom");
     }
     if (browserName == "MS Edge" || browserName == "Edge ( chromium based)") {
-      document.getElementById("section-title").classList.remove("mobile-chrome-safari-top");
+      document.getElementById("main-section-title").classList.remove("mobile-chrome-safari-top");
       document.getElementById("main-section-nav-tags").classList.remove("mobile-chrome-safari-bottom");
     }
 }
