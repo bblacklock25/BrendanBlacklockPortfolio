@@ -164,5 +164,20 @@ function resizeCorners() {
 }
 
 function moveToAboutSection() {
-  document.getElementById("main-body").classList.toggle("link-clicked");
-}
+  let mainBody = document.getElementById("main-body");
+  if (mainBody.classList.contains('hidden')) {
+    mainBody.classList.remove('hidden');
+    setTimeout(function() {
+      mainBody.classList.remove('visuallyhidden');
+    }, 50);
+  } else {
+    mainBody.classList.add('visuallyhidden');
+    mainBody.addEventListener('transitioned', function(e) {
+      mainBody.classList.add('hidden');
+    }, {
+      capture: false,
+      once: true,
+      passive: false
+    });
+  }
+};
