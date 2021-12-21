@@ -83,20 +83,20 @@
 
 @media (max-aspect-ratio: 1/1) {
   .section-one {
-    left: 7vw;
+    left: 6vw;
     top: 26vh;
   }
   
   #main-section-one-text {
-    width: 28vw;
+    width: 26vw;
   }
 
   .section-header {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   
   .section-subheader {
-    font-size: 1.9vw;
+    font-size: 1.6vw;
   }
 }
 
@@ -218,13 +218,13 @@
 @media (max-aspect-ratio: 1/1){
   .section-two {
     right: 4.5vw;
-    bottom: -27vh;
+    bottom: -25vh;
   }
 
   .section-two p{
     margin-top:1em;
-    font-size: 4vh;
-    letter-spacing: .35em;
+    font-size: 4.25vh;
+    letter-spacing: .25em;
   }
 }
 
