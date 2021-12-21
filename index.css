@@ -390,6 +390,9 @@ canvas {
   animation: none;
 }
 
+.clear-entry-section {
+  display: none;
+}
 
 /*Hide Main Body*/
 #main-body {
