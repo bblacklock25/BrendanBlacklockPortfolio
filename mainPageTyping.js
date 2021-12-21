@@ -35,7 +35,7 @@ header.addEventListener('mouseleave', linkShrink);
 
 about.addEventListener('mouseover', linkGrowBig);
 about.addEventListener('mouseleave', linkShrink);
-about.addEventListener('click', moveToAboutSection);
+about.addEventListener('click', toggleMainAboutSection);
 
 projects.addEventListener('mouseover', linkGrowBig);
 projects.addEventListener('mouseleave', linkShrink);
@@ -163,7 +163,7 @@ function resizeCorners() {
   }
 }
 
-function moveToAboutSection() {
+function toggleMainAboutSection() {
   let mainBody = document.getElementById("main-body");
   if (mainBody.classList.contains('hidden')) {
     mainBody.classList.remove('hidden');
@@ -174,6 +174,22 @@ function moveToAboutSection() {
     mainBody.classList.add('visuallyhidden');
     mainBody.addEventListener('transitioned', function(e) {
       mainBody.classList.add('hidden');
+    }, {
+      capture: false,
+      once: true,
+      passive: false
+    });
+  }
+  let aboutSection = document.getElementById("about-section");
+  if (aboutSection.classList.contains('hidden')) {
+    aboutSection.classList.remove('hidden');
+    setTimeout(function() {
+      aboutSection.classList.remove('visuallyhidden');
+    }, 50);
+  } else {
+    aboutSection.classList.add('visuallyhidden');
+    aboutSection.addEventListener('transitioned', function(e) {
+      aboutSection.classList.add('hidden');
     }, {
       capture: false,
       once: true,
