@@ -20,8 +20,10 @@ var browserName = (function (agent) {
 })(window.navigator.userAgent.toLowerCase());
 
 if (mobileDevice == 1) {
+  console.log(0);
     document.getElementById('mobileCursor').remove();
     if (browserName == "Chrome" || browserName == "Safari") {
+      console.log(1);
       document.getElementById("main-section-one").classList.add("mobile-chrome-safari-top");
       document.getElementById("main-section-nav").classList.add("mobile-chrome-safari-bottom");
     }
