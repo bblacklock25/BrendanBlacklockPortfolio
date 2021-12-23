@@ -24,13 +24,9 @@ if (mobileDevice == 1) {
     if (browserName == "Chrome" || browserName == "Safari") {
       document.getElementById("main-section").classList.add("mobile-chrome-safari-top");
       document.getElementById("main-section-nav").classList.add("mobile-chrome-safari-bottom");
-      document.getElementById("about-section-one").classList.add("mobile-chrome-safari-top");
-      document.getElementById("about-section-two").classList.add("mobile-chrome-safari-bottom");
     }
     if (browserName == "MS Edge" || browserName == "Edge ( chromium based)") {
       document.getElementById("main-section").classList.remove("mobile-chrome-safari-top");
       document.getElementById("main-section-nav").classList.remove("mobile-chrome-safari-bottom");
-      document.getElementById("about-section-one").classList.remove("mobile-chrome-safari-top");
-      document.getElementById("about-section-two").classList.remove("mobile-chrome-safari-bottom");
     }
 }
