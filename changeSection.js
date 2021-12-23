@@ -10,6 +10,7 @@ const mainSection =  document.getElementById("main-section");
 const aboutSection = document.getElementById("about-section");
 
 aboutLink.addEventListener('click', homeToAbout, false);
+resumeLink.addEventListener('click', openResumePDF, false);
 backHomeButton.addEventListener('click', backHome, false);
 
 function homeToAbout() {
@@ -38,5 +39,9 @@ function backHome() {
         mainSection.classList.remove('section-hidden');
         mainSection.classList.add('section-fadein');
     }, 1700);
+}
+
+function openResumePDF() {
+    window.open('BrendanBlacklockPortfolio/resumePortfolio.pdf', '_blank').focus();
 }
 
