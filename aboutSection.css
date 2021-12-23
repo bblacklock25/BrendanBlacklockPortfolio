@@ -98,7 +98,7 @@
 
 @media (max-aspect-ratio: 47/64) {
   #about-section .section-one {
-    top: 7vw
+    top: 7vw;
   }
 
   #about-section-one-text .section-subheader {
@@ -108,7 +108,7 @@
 
 @media (max-aspect-ratio: 19/32) {
   #about-section .section-one {
-    top: 7vw
+    top: 7vw;
   }
 
   #about-section-one-text .section-subheader {
@@ -118,12 +118,17 @@
 
 @media (max-aspect-ratio: 31/64) {
   #about-section .section-one {
-    top: 7vw
+    top: 7vw;
   }
 
   #about-section-one-text .section-subheader {
     font-size: .9vh;
   }
+}
+
+.mobile-chrome-safari-about-two {
+  top: 5vw !important;
+  font-size: 1vh !important;
 }
 
 /* ABOUT SECTION TWO */
@@ -409,4 +414,8 @@
     top: 3.25vh;
     font-size: 1.1vh;
   }
+}
+
+.mobile-chrome-safari-about-two {
+  top: 22vh !important;
 }

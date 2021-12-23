@@ -100,7 +100,7 @@
   }
 }
 
-.mobile-chrome-safari-top {
+.mobile-chrome-safari-main-one{
     top: 3.25vh !important;
 }
 
@@ -265,6 +265,6 @@
   }
 }
 
-.mobile-chrome-safari-bottom {
+.mobile-chrome-safari-main-nav {
   bottom: -66.5vh !important;
 }
