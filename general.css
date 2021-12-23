@@ -1,14 +1,34 @@
 .section-hidden {
-  visibility: hidden;
-  opacity: 0;
+  visibility: hidden ;
+  opacity: 0 ;
 }
 
 .section-fadein {
-  visibility: visible;
-  opacity: 1;
-  transition: visibility 0s linear 0s, opacity 4s;
+  visibility: visible ;
+  opacity: 1 ;
+  transition: visibility 0s linear 0s, opacity 4s ;
 }
 
 .hidden {
-  display: none;
+  display: none ;
+}
+
+.slide-text-left {
+  transform: translateX(-150%);
+  transition: transform 1.5s ease-in;
+}
+
+.slide-text-right {
+  transform: translateX(250%);
+  transition: transform 1.5s ease-in;
+}
+
+.slide-text-up {
+  transform: translateY(-50%);
+  transition: transform 1.5s ease-in;
+}
+
+.slide-text-down {
+  transform: translateY(150%);
+  transition: transform 1.5s ease-in;
 }

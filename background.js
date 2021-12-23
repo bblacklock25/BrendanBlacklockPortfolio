@@ -154,7 +154,7 @@ function animate() {
 }
 
 function animateReverse() {
-    fovZoom();
+    fovZoomEntry();
     cancelReverseAnimation = requestAnimationFrame(animateReverse);
     sphereOutermost.rotation.x -= 0.005;
     sphereOutermost.rotation.y -= 0.005;
@@ -195,6 +195,7 @@ if (enterButtonStatus == 0) {
 }
 
 function enterButtonClicked() {
+    console.log(1);
     // Initialize fade targets (main section and button)
     var fadeTarget = document.getElementById("entry-section");
     // Initialize timer function to fade target elements. 
@@ -214,7 +215,7 @@ function enterButtonClicked() {
     animateReverse();  // Call reverse animation.
 }
 
-function fovZoom() {
+function fovZoomEntry() {
     // Timer function to zoom FOV.
     setTimeout(function() {
         // Update FOV.
@@ -238,9 +239,9 @@ function fovZoom() {
             scene.add(torusInner);
             if (navbarChecked == 0) {
                 // // Fadein navbar and heading.
-                document.getElementById('navbar').classList.toggle('section-fadein');
-                document.getElementById('main-section').classList.toggle('section-fadein');
-                document.getElementById('social-links').classList.toggle('section-fadein');
+                document.getElementById('navbar').classList.add('section-fadein');
+                document.getElementById('main-section').classList.add('section-fadein');
+                document.getElementById('social-links').classList.add('section-fadein');
                 navbarChecked = 1;
             }
             scene.remove(sphereOutermost);  // Remove outermost sphere.

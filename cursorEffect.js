@@ -1,10 +1,10 @@
 // Initialize variables for selection cursor.
 const mouseCursor = document.querySelector('.selection-cursor');
 const header = document.querySelector("#name");
-const about = document.querySelector('[title="About"]');
-const projects = document.querySelector('[title="Projects"]');
-const resume = document.querySelector('[title="Resume"]');
-const contact = document.querySelector('[title="Contact"]');
+const about = document.querySelector('#About');
+const projects = document.querySelector('#Projects');
+const resume = document.querySelector('#Resume');
+const contact = document.querySelector('#Contact');
 const linkedIn = document.querySelector('#linkedin-social');
 const gitHub = document.querySelector('#github-social');
 const youTube = document.querySelector('#youtube-social');

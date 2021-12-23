@@ -176,7 +176,7 @@
   z-index: 1;
 }
 
-.section-two p{
+#main-section-nav p{
   margin-top:5.5vh;
   margin-bottom: 0;
   padding-top:0;
@@ -193,7 +193,7 @@
     bottom: -20vh;
   }
 
-  .section-two p{
+  #main-section-nav p{
     margin-top:3.5vh;
     margin-bottom: 0;
     font-size: 7vh;
@@ -207,7 +207,7 @@
     bottom: -24vh;
   }
 
-  .section-two p{
+  #main-section-nav p{
     margin-top:.65em;
     margin-bottom: 0;
     font-size: 5.5vh;
@@ -221,7 +221,7 @@
     bottom: -25vh;
   }
 
-  .section-two p{
+  #main-section-nav p{
     margin-top:1em;
     font-size: 4.25vh;
     letter-spacing: .25em;
@@ -236,7 +236,7 @@
     width: 100%;
   }
 
-  .section-two p{
+  #main-section-nav p{
     margin-top:2vw;
     margin-bottom: 0;
     font-size: 4.5vw;
@@ -252,14 +252,14 @@
 }
 
 @media (max-aspect-ratio: 19/32) {
-  .section-two p{
+  #main-section-nav p{
     margin-top:1.9vh;
     font-size: 6vw;
   }
 }
 
 @media (max-aspect-ratio: 31/64) {
-  .section-two p{
+  #main-section-nav p{
     margin-top:.8em;
     font-size: 7vw;
   }
