@@ -332,7 +332,7 @@
   }
   
   .section-subheader-fields {
-    font-size: 1.6vh;
+    font-size: 1.5vh;
     padding-left: 10vw;
     padding-right: 10vw;
     text-align: center;
@@ -354,7 +354,7 @@
   }
   
   .section-subheader-fields {
-    font-size: 1.3vh !important;
+    font-size: 1.2vh !important;
   }
 
   #back-home-button {
@@ -376,7 +376,7 @@
   }
   
   .superscript-fields {
-    font-size: .8vh;
+    font-size: .7vh;
   }
 }
 
@@ -407,7 +407,7 @@
   }
   
   .superscript-fields {
-    font-size: .7vh;
+    font-size: .6vh;
   }
 
   #back-home-button {
@@ -417,5 +417,10 @@
 }
 
 .mobile-chrome-safari-about-two {
-  top: 22vh !important;
+  top: 20vh !important;
+}
+
+.mobile-chrome-safari-about-two-section-subheader {
+  padding-left: 6vw !important;
+  padding-right: 6vw !important;
 }
