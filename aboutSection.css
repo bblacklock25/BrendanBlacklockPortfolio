@@ -138,6 +138,10 @@
   font-size: 1.1vh !important;
 }
 
+.mobile-safari-about-one-subheader {
+  font-size: 1.2vh !important;
+}
+
 /* ABOUT SECTION TWO */
 #about-section .section-two {
   top: 17vh;
