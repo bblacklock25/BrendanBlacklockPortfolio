@@ -126,7 +126,12 @@
   }
 }
 
-.mobile-chrome-safari-about-one {
+.mobile-chrome-about-one {
+  top: 5vw !important;
+  font-size: .8vh !important;
+}
+
+.mobile-safari-about-one {
   top: 5vw !important;
   font-size: .9vh !important;
 }
@@ -421,7 +426,7 @@
 }
 
 .mobile-chrome-about-two {
-  top: 16vh !important;
+  top: 10vh !important;
 }
 
 .mobile-chrome-safari-about-two-section-subheader {
