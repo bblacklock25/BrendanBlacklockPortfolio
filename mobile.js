@@ -29,7 +29,7 @@ if (mobileDevice == 1) {
     document.getElementById("about-section-two").classList.add("mobile-safari-about-two");
     aboutSectionTwoSubheader.classList.add('mobile-chrome-safari-about-two-section-subheader');
   }
-  if (browserName == "Chrome") {
+  if (navigator.userAgent.match('CriOS')) {
     document.getElementById("main-section-one").classList.add("mobile-chrome-safari-main-one");
     document.getElementById("main-section-nav").classList.add("mobile-chrome-safari-main-nav");
     document.getElementById("about-section-one").classList.add("mobile-chrome-about-one");
