@@ -128,7 +128,7 @@
 
 .mobile-chrome-safari-about-one {
   top: 5vw !important;
-  font-size: 1vh !important;
+  font-size: .9vh !important;
 }
 
 /* ABOUT SECTION TWO */
@@ -416,7 +416,11 @@
   }
 }
 
-.mobile-chrome-safari-about-two {
+.mobile-safari-about-two {
+  top: 19vh !important;
+}
+
+.mobile-chrome-about-two {
   top: 16vh !important;
 }
 

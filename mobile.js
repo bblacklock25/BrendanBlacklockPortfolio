@@ -23,12 +23,18 @@ const aboutSectionTwoSubheader = document.querySelector('#about-section-two-text
 
 if (mobileDevice == 1) {
   console.log(0);
-  if (browserName == "Chrome" || browserName == "Safari") {
-    console.log(1);
+  if (browserName == "Chrome") {
     document.getElementById("main-section-one").classList.add("mobile-chrome-safari-main-one");
     document.getElementById("main-section-nav").classList.add("mobile-chrome-safari-main-nav");
     document.getElementById("about-section-one").classList.add("mobile-chrome-safari-about-one");
-    document.getElementById("about-section-two").classList.add("mobile-chrome-safari-about-two");
+    document.getElementById("about-section-two").classList.add("mobile-chrome-about-two");
+    aboutSectionTwoSubheader.classList.add('mobile-chrome-safari-about-two-section-subheader');
+  }
+  else if (browserName == "Safari") {
+    document.getElementById("main-section-one").classList.add("mobile-chrome-safari-main-one");
+    document.getElementById("main-section-nav").classList.add("mobile-chrome-safari-main-nav");
+    document.getElementById("about-section-one").classList.add("mobile-chrome-safari-about-one");
+    document.getElementById("about-section-two").classList.add("mobile-safari-about-two");
     aboutSectionTwoSubheader.classList.add('mobile-chrome-safari-about-two-section-subheader');
   }
   if (browserName == "MS Edge" || browserName == "Edge ( chromium based)") {
