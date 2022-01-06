@@ -8,8 +8,10 @@ const sectionOne = document.getElementsByClassName('section-one');
 const sectionTwo = document.getElementsByClassName('section-two');
 const mainSection =  document.getElementById("main-section");
 const aboutSection = document.getElementById("about-section");
+const projectSection = document.getElementById("project-section");
 
 aboutLink.addEventListener('click', homeToAbout, false);
+projectsLink.addEventListener('click', homeToProjects, false);
 resumeLink.addEventListener('click', openResumePDF, false);
 contactLink.addEventListener('click', openEmailContact, false);
 backHomeButton.addEventListener('click', backHome, false);
@@ -37,8 +39,25 @@ function backHome() {
     setTimeout(function() {
         aboutSection.classList.remove('section-fadein');
         aboutSection.classList.add('section-hidden');
+        projectSection.classList.remove('section-fadein');
+        projectSection.classList.add('section-hidden');
         mainSection.classList.remove('section-hidden');
         mainSection.classList.add('section-fadein');
+    }, 1700);
+}
+
+function homeToProjects() {
+    sectionOne[0].classList.add('slide-text-left');
+    sectionTwo[0].classList.add('slide-text-right');
+    setTimeout(function() {
+        if (projectSection.classList.contains("section-hidden")) {
+            sectionOne[1].classList.remove('slide-text-left');
+            sectionTwo[1].classList.remove('slide-text-right');
+            projectSection.classList.remove('section-hidden');
+        }
+        mainSection.classList.remove('section-fadein');
+        mainSection.classList.add('section-hidden');
+        projectSection.classList.add('section-fadein');
     }, 1700);
 }
 
