@@ -1,66 +1,183 @@
+/* PROJECT SECTION TWO */
+#project-section-one {
+  position: fixed;
+  top: 0vh;
+  left: 5vw;
+  height: 100%;
+  width: 35vw;
+  display: flex;
+  justify-content: center;
+}
+
+#project-section-one-text{
+  margin-bottom: 0;
+  padding-top:0;
+  color: #101010;
+  text-shadow: -1px -1px 0 #FFF, 1px -1px 0 #FFF, -1px 1px 0 #FFF, 1px 1px 0 #FFF;
+  letter-spacing: .2em;
+  font-size: 4.75vh;
+  font-family: 'Oswald', sans-serif;
+}
+
+@media (max-aspect-ratio: 2/1) {
+  #project-section-one {
+    width: 31vw;
+  } 
+
+  #project-section-one-text{
+    letter-spacing: .2em;
+    font-size: 4.25vh;
+  }
+}
+
+@media (max-aspect-ratio: 16/10) {
+  #project-section-one {
+    width: 32vw;
+  } 
+
+  #project-section-one-text{
+    font-size: 4vh;
+  }
+}
+
+@media (max-aspect-ratio: 4/3) {
+  #project-section-one {
+    width: 31vw;
+  }
+  
+  #project-section-one-text{
+    letter-spacing: .2em;
+    font-size: 3.75vh;
+  }
+}
+
+@media (max-aspect-ratio: 1/1) {
+  #project-section-one {
+    width: 30vw;
+  }
+  
+  #project-section-one-text{
+    letter-spacing: .2em;
+    font-size: 3.25vh;
+  }
+}
+
+/* VERTICAL */
+@media (max-aspect-ratio: 5/6) {
+  #project-section-one {
+    top: 40vh;
+    width: 31vw;
+  }
+  
+  #project-section-one-text{
+    letter-spacing: .2em;
+    font-size: 3.75vh;
+  }
+}
+
+@media (max-aspect-ratio: 47/64) {
+  #project-section-one {
+    top: 40vh;
+    width: 31vw;
+  }
+  
+  #project-section-one-text{
+    letter-spacing: .2em;
+    font-size: 3.75vh;
+  }
+}
+
+@media (max-aspect-ratio: 31/64) {
+  #project-section-one {
+    top: 40vh;
+    width: 31vw;
+  }
+  
+  #project-section-one-text{
+    letter-spacing: .2em;
+    font-size: 3.75vh;
+  }
+}
+
+/* PROJECT SECTION TWO */
+#project-section-two {
+  position: fixed;
+  height: 100%;
+  width: 22.5vw;
+  top: 0;
+  right: 7vw;
+  display: flex;
+  justify-content: center;
+}
+
 /* BACK TO HOME BUTTON */
 
 #back-home-button-project {
-    position: inherit;
-    display: flex;
-    top: 8vh;
-    justify-content: center;
-    font-family: 'Oswald', sans-serif;
-    letter-spacing: .2em;
-    font-weight: bold;
-    font-size: 2vh;
-    padding: 1em 1.5em 1.5em 1.5em;
-    height: 1em;
-    position: relative;
-    color: white;
-    text-decoration: none;
-    transition: 0.75s;
-    overflow: hidden;
+  position: inherit;
+  display: flex;
+  justify-content: center;
+  font-family: 'Oswald', sans-serif;
+  letter-spacing: .2em;
+  font-weight: bold;
+  font-size: 2vh;
+  padding: 1em 1.5em 1.5em 1.5em;
+  height: 1em;
+  position: relative;
+  color: white;
+  text-decoration: none;
+  transition: 0.75s;
+  overflow: hidden;
+}
+
+#back-home-button-project:hover {
+  background: #21ebff;
+  color: #111;
+  box-shadow: 0 0 2em #21ebff;
+  transition-delay: 0.75s;
+}
+
+#back-home-button-project::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1em;
+  height: 1em;
+  border-top: .25em solid white;
+  border-left: .25em solid white;
+  transition: 0.75s;
+}
+
+#back-home-button-project:hover:before {
+  width: 100%;
+  height: 100%;
+  transition-delay: 0s;
+  border-top: .25em solid #21ebff;
+  border-left: .25em solid #21ebff;
+}
+
+#back-home-button-project::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  border-bottom: .25em solid white;
+  border-right: .25em solid white;
+  transition: 0.75s;
+}
+
+#back-home-button-project:hover:after {
+  width: 100%;
+  height: 100%;
+  transition-delay: 0s;
+  border-bottom: .25em solid #21ebff;
+  border-right: .25em solid #21ebff;
+}
+
+@media (max-aspect-ratio: 4/3) {
+  #back-home-button-project {
+    font-size: 1.75vh;
   }
-  
-  #back-home-button-project:hover {
-    background: #21ebff;
-    color: #111;
-    box-shadow: 0 0 2em #21ebff;
-    transition-delay: 0.75s;
-  }
-  
-  #back-home-button-project::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 1em;
-    height: 1em;
-    border-top: .25em solid white;
-    border-left: .25em solid white;
-    transition: 0.75s;
-  }
-  
-  #back-home-button-project:hover:before {
-    width: 100%;
-    height: 100%;
-    transition-delay: 0s;
-    border-top: .25em solid #21ebff;
-    border-left: .25em solid #21ebff;
-  }
-  
-  #back-home-button-project::after {
-    content: '';
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    width: 1em;
-    height: 1em;
-    border-bottom: .25em solid white;
-    border-right: .25em solid white;
-    transition: 0.75s;
-  }
-  
-  #back-home-button-project:hover:after {
-    width: 100%;
-    height: 100%;
-    transition-delay: 0s;
-    border-bottom: .25em solid #21ebff;
-    border-right: .25em solid #21ebff;
-  }
+}

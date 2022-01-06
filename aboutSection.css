@@ -2,20 +2,22 @@
   display: flex;
   justify-content: center;
 }
+
 /* ABOUT SECTION ONE */
 #about-section .section-one {
-  top:17vh;
+  top:0;
+  width: auto;
+  height: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 #about-section-one-text{
-    overflow: hidden;
-    height: 100vh;
-    width: 23vw;
-    display: flex;
-    flex-direction: column;
-    color: whitesmoke;
-    overflow: hidden;
-    z-index: 1;
+  overflow: hidden;
+  width: 23vw;
+  color: whitesmoke;
+  overflow: hidden;
+  z-index: 1;
 }
 
 #about-section-one-text .section-subheader {
@@ -24,7 +26,6 @@
 
 @media (max-aspect-ratio: 2/1) {
   #about-section .section-one {
-    top: 21vh;
     left: 10vw;
   }
 
@@ -38,10 +39,6 @@
 }
 
 @media (max-aspect-ratio: 4/3) {
-  #about-section .section-one {
-    top: 17vh;
-  }
-
   #about-section-one-text{
     width: 25vw;
   }
@@ -53,7 +50,6 @@
 
 @media (max-aspect-ratio: 179/150) {
   #about-section .section-one {
-    top: 18vh;
     left: 6vw;
   }
 
@@ -67,10 +63,6 @@
 }
 
 @media (max-aspect-ratio: 1/1) {
-  #about-section .section-one {
-    top: 16vh;
-  }
-
   #about-section-one-text{
     width: 26vw;
   }
@@ -85,6 +77,7 @@
   #about-section .section-one {
     top: 7vw;
     left: 0;
+    height: auto;
   }
 
   #about-section-one-text{
@@ -144,12 +137,14 @@
 
 /* ABOUT SECTION TWO */
 #about-section .section-two {
-  top: 17vh;
+  top: 0vh;
+  height: 100%;
+  justify-content: center;
 }
 
 #about-section-two-text {
   overflow: hidden;
-  height: 100vh;
+  height: auto;
   width: 23vw;
   display: flex;
   flex-direction: column;
@@ -181,12 +176,12 @@
 #back-home-button-about {
   position: inherit;
   display: flex;
-  top: 8vh;
   justify-content: center;
   font-family: 'Oswald', sans-serif;
   letter-spacing: .2em;
   font-weight: bold;
   font-size: 2vh;
+  margin-top: 12.5%;
   padding: 1em 1.5em 1.5em 1.5em;
   height: 1em;
   position: relative;
@@ -245,7 +240,6 @@
 
 @media (max-aspect-ratio: 2/1) {
   #about-section .section-two {
-    top: 21vh;
     right: 11vw;
   }
   #about-section-two-text {
@@ -266,41 +260,13 @@
 }
 
 @media (max-aspect-ratio: 4/3) {
-  #about-section .section-two {
-      top: 17vh;
-  }
   #back-home-button-about {
     font-size: 1.6vh;
   }
 }
 
-/* @media (max-aspect-ratio: 179/150) {
-  #about-section .section-two {
-    top: 12vh;
-    right: 11vw;
-  }
-  #about-section-two-text {
-    width: 21vw;
-  }
-
-  #about-section-two-text .section-subheader{
-    font-size: 1.95vh;
-  }
-  
-  .section-subheader-fields {
-    font-size: 1.8vh;
-  }
-  
-  .superscript-fields {
-    font-size: .9vh;
-  }
-  
-
-} */
-
 @media (max-aspect-ratio: 1/1) {
   #about-section .section-two {
-    top: 16vh;
     right: 7vw;
   }
   
@@ -354,7 +320,6 @@
   }
 
   #back-home-button-about {
-    top: 3.25vh;
     font-size: 1.3vh;
   }
 }
@@ -422,7 +387,6 @@
   }
 
   #back-home-button-about {
-    top: 3.25vh;
     font-size: 1.1vh;
   }
 }
