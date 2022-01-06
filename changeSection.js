@@ -2,7 +2,8 @@ const aboutLink = document.getElementById("About");
 const projectsLink = document.getElementById("Projects");
 const resumeLink = document.getElementById("Resume");
 const contactLink = document.getElementById("Contact");
-const backHomeButton = document.getElementById("back-home-button")
+const backHomeButtonAbout = document.getElementById("back-home-button-about")
+const backHomeButtonProject = document.getElementById("back-home-button-project")
 
 const sectionOne = document.getElementsByClassName('section-one');
 const sectionTwo = document.getElementsByClassName('section-two');
@@ -14,7 +15,8 @@ aboutLink.addEventListener('click', homeToAbout, false);
 projectsLink.addEventListener('click', homeToProjects, false);
 resumeLink.addEventListener('click', openResumePDF, false);
 contactLink.addEventListener('click', openEmailContact, false);
-backHomeButton.addEventListener('click', backHome, false);
+backHomeButtonAbout.addEventListener('click', backHomeAbout, false);
+backHomeButtonProject.addEventListener('click', backHomeProject, false);
 
 function homeToAbout() {
     sectionOne[0].classList.add('slide-text-left');
@@ -31,7 +33,7 @@ function homeToAbout() {
     }, 1700);
 }
 
-function backHome() {
+function backHomeAbout() {
     sectionOne[0].classList.remove('slide-text-left');
     sectionTwo[0].classList.remove('slide-text-right');
     sectionOne[1].classList.add('slide-text-left');
@@ -39,6 +41,17 @@ function backHome() {
     setTimeout(function() {
         aboutSection.classList.remove('section-fadein');
         aboutSection.classList.add('section-hidden');
+        mainSection.classList.remove('section-hidden');
+        mainSection.classList.add('section-fadein');
+    }, 1700);
+}
+
+function backHomeProject() {
+    sectionOne[0].classList.remove('slide-text-left');
+    sectionTwo[0].classList.remove('slide-text-right');
+    sectionOne[2].classList.add('slide-text-left');
+    sectionTwo[2].classList.add('slide-text-right');
+    setTimeout(function() {
         projectSection.classList.remove('section-fadein');
         projectSection.classList.add('section-hidden');
         mainSection.classList.remove('section-hidden');
@@ -51,8 +64,8 @@ function homeToProjects() {
     sectionTwo[0].classList.add('slide-text-right');
     setTimeout(function() {
         if (projectSection.classList.contains("section-hidden")) {
-            sectionOne[1].classList.remove('slide-text-left');
-            sectionTwo[1].classList.remove('slide-text-right');
+            sectionOne[2].classList.remove('slide-text-left');
+            sectionTwo[2].classList.remove('slide-text-right');
             projectSection.classList.remove('section-hidden');
         }
         mainSection.classList.remove('section-fadein');
