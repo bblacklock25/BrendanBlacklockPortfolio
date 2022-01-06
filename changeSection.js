@@ -11,6 +11,7 @@ const aboutSection = document.getElementById("about-section");
 
 aboutLink.addEventListener('click', homeToAbout, false);
 resumeLink.addEventListener('click', openResumePDF, false);
+contactLink.addEventListener('click', openEmailContact, false);
 backHomeButton.addEventListener('click', backHome, false);
 
 function homeToAbout() {
@@ -43,5 +44,9 @@ function backHome() {
 
 function openResumePDF() {
     window.open('BrendanBlacklockPortfolio/resumePortfolio.pdf', '_blank').focus();
+}
+
+function openEmailContact() {
+    window.open("mailto:bblacklock25@gmail.com");
 }
 
