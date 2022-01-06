@@ -1,5 +1,5 @@
 const aboutLink = document.getElementById("About");
-// const projectsLink = document.getElementById("Projects");
+const projectsLink = document.getElementById("Projects");
 const resumeLink = document.getElementById("Resume");
 const contactLink = document.getElementById("Contact");
 const backHomeButton = document.getElementById("back-home-button")
