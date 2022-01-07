@@ -174,11 +174,11 @@
 }
 
 .mobile-safari-rover-two {
-  top: 57vh !important;
+  bottom: -57vh !important;
 }
 
 .mobile-chrome-rover-two {
-  top: 55vh !important;
+  bottom: -55vh !important;
 }
 
 /* BACK TO PROJECT BUTTON */
@@ -251,14 +251,6 @@
 #back-project-rover {
   padding-top: 1.75em;
 }
-
-.mobile-chrome-back-project-rover {
-  padding-top: .25em !important;
-}
-
-.mobile-safari-back-project-rover {
-  padding-top: .5em !important;
-}
   
 @media (max-aspect-ratio: 2/1) {
   #rover-section-two-text{
@@ -322,9 +314,6 @@
 }
 
 @media (max-aspect-ratio: 47/64) {
-  #rover-section-two {
-  }
-
   #rover-section-two-text{
     margin-left: 23vw;
     margin-right: 23vw;

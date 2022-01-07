@@ -39,10 +39,9 @@ if (mobileDevice == 1) {
     document.getElementById("back-home-project").classList.add("mobile-safari-back-home-project");
 
     // ROVER SECTION
-    document.getElementById("rover-section-one").classList.add("mobile-safari-rover-one")
+    document.getElementById("rover-section-one").classList.add("mobile-safari-rover-one");
     document.querySelector("#rover-section-one-text .section-subheader").classList.add("mobile-safari-rover-one-subheader");
-    document.getElementById("rover-section-two").classList.add("mobile-safari-rover-two")
-    document.getElementById("back-project-rover").classList.add("mobile-safari-back-project-rover");
+    document.getElementById("rover-section-two").classList.add("mobile-safari-rover-two");
   }
   if (navigator.userAgent.match('CriOS')) {
     // HOME SECTION
@@ -61,10 +60,9 @@ if (mobileDevice == 1) {
     document.getElementById("back-home-project").classList.add("mobile-chrome-back-home-project");
 
     // ROVER SECTION
-    document.getElementById("rover-section-one").classList.add("mobile-chrome-rover-one")
+    document.getElementById("rover-section-one").classList.add("mobile-chrome-rover-one");
     document.querySelector("#rover-section-one-text .section-subheader").classList.add("mobile-chrome-rover-one-subheader");
-    document.getElementById("rover-section-two").classList.add("mobile-chrome-rover-two")
-    document.getElementById("back-project-rover").classList.add("mobile-chrome-back-project-rover");
+    document.getElementById("rover-section-two").classList.add("mobile-chrome-rover-two");
   }
   if (browserName == "MS Edge" || browserName == "Edge ( chromium based)") {
     // HOME SECTION
@@ -89,13 +87,11 @@ if (mobileDevice == 1) {
     document.getElementById("back-home-project").classList.remove("mobile-chrome-back-home-project");
 
     // ROVER SECTION
-    document.getElementById("rover-section-one").classList.remove("mobile-safari-rover-one")
+    document.getElementById("rover-section-one").classList.remove("mobile-safari-rover-one");
     document.querySelector("#rover-section-one-text .section-subheader").classList.remove("mobile-safari-rover-one-subheader");
-    document.getElementById("rover-section-one").classList.remove("mobile-chrome-rover-one")
+    document.getElementById("rover-section-one").classList.remove("mobile-chrome-rover-one");
     document.querySelector("#rover-section-one-text .section-subheader").classList.remove("mobile-chrome-rover-one-subheader");
-    document.getElementById("rover-section-two").classList.remove("mobile-safari-rover-two")
-    document.getElementById("rover-section-two").classList.remove("mobile-chrome-rover-two")
-    document.getElementById("back-project-rover").classList.remove("mobile-safari-back-project-rover");
-    document.getElementById("back-project-rover").classList.remove("mobile-chrome-back-project-rover");
+    document.getElementById("rover-section-two").classList.remove("mobile-safari-rover-two");
+    document.getElementById("rover-section-two").classList.remove("mobile-chrome-rover-two");
   }
 }
