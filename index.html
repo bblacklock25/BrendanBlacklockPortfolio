@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- HEADING -->
 <head>
   <title>Brendan Blacklock's Portfolio</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1">
   <base href="/">
+  <!-- CSS -->
   <link rel="stylesheet" href="BrendanBlacklockPortfolio/general.css">
   <link rel="stylesheet" href="BrendanBlacklockPortfolio/layout.css">
   <link rel="stylesheet" href="BrendanBlacklockPortfolio/entrySection.css">
   <link rel="stylesheet" href="BrendanBlacklockPortfolio/mainSection.css">
   <link rel="stylesheet" href="BrendanBlacklockPortfolio/aboutSection.css">
   <link rel="stylesheet" href="BrendanBlacklockPortfolio/projectSection.css">
+  <link rel="stylesheet" href="BrendanBlacklockPortfolio/roverSection.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css?family=Oswald|Quattrocento" rel="stylesheet">  
 </head>
+<!-- BODY -->
 <body class="body">
   <!-- CURSOR -->
   <div id="mobileCursor" class="selection-cursor"></div>
@@ -87,15 +91,45 @@
       </div>
     </div>
   </div>
+  <!-- ROVER PROJECT SECTION -->
+  <div id="rover-section" class="section-hidden">
+    <div id="rover-section-one" class="section-one">
+      <div id="rover-section-one-text">
+        <p class="section-subheader">This design employs a Basys 3 FPGA Board to control a Rover 5. The rover avoids wall, detects the colors red, blue, and green, and receives morse-code commands. For this project, I coded the Verilog modules and testbenches for wall avoidance and morse-code communication. I also designed and tested circuits for overcurrent protection, wall avoidance, and morse-code communication.</p>
+      </div>
+    </div>
+    <div id="rover-section-two" class="section-two">
+      <div id="rover-section-two-text">
+        <p id="rover-paper">Project Report</p>
+        <p id="rover-notebook">Project Notebook</p>
+        <p id="rover-youtube">Youtube Playlist</p>
+        <div id="back-project-rover" class="back-home-section-button">
+          <a id="back-project-button-rover">Back to Projects</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- CATAPULT PROJECT SECTION -->
+  <div id="catapult-section" class="section-hidden">
+  </div>
+  <!-- SUPERMARKET PROJECT SECTION -->
+  <div id="supermarket-section" class="section-hidden">
+  </div>
+  <!-- OUTSERVED PROJECT SECTION -->
+  <div id="outserved-section" class="section-hidden">
+  </div>
+  <!-- SOCIAL LINKS -->
   <div id="social-links" class="section-hidden">
     <a class="social-link-buttons" href="https://www.linkedin.com/in/brendan-blacklock25252525/" target="_blank"><img id="linkedin-social" width="60" height="60" src="BrendanBlacklockPortfolio/linkedin.png"/></a>
     <a class="social-link-buttons" href="https://github.com/bblacklock25" target="_blank"><img id="github-social" width="60" height="60" src="BrendanBlacklockPortfolio/github.png"/></a>
     <a class="social-link-buttons" href="https://www.youtube.com/channel/UCAqtVfSuKusorXvqq2wP1-g" target="_blank"><img id="youtube-social" width="60" height="60" src="BrendanBlacklockPortfolio/youtube.png"/></a>
   </div>
+  <!-- CORNER IMAGES -->
   <div class="cornerImages"><img width="100" height="auto" id="upperLeft" src="BrendanBlacklockPortfolio/Corner.png"/></div>
   <div class="cornerImages"><img width="100" height="auto" id="upperRight" src="BrendanBlacklockPortfolio/Corner.png"/></div>
   <div class="cornerImages"><img width="100" height="auto" id="lowerLeft" src="BrendanBlacklockPortfolio/Corner.png"/></div>
   <div class="cornerImages"><img width="100" height="auto" id="lowerRight" src="BrendanBlacklockPortfolio/Corner.png"/></div>
+  <!-- JAVASCRIPT FILES -->
   <script src = "BrendanBlacklockPortfolio/general.js" type = "text/javascript"></script>
   <script src = "BrendanBlacklockPortfolio/mobile.js" type = "module"></script>
   <script src = "BrendanBlacklockPortfolio/background.js" type = "module"></script>

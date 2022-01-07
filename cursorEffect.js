@@ -46,16 +46,16 @@ youTube.addEventListener('mouseover', linkGrow);
 youTube.addEventListener('mouseleave', linkShrink);
 
 // Project Links Hover Listeners
-fpga.addEventListener('mouseover', linkGrowBig);
+fpga.addEventListener('mouseover', linkGrow);
 fpga.addEventListener('mouseleave', linkShrink);
 
-rpi.addEventListener('mouseover', linkGrowBig);
+rpi.addEventListener('mouseover', linkGrow);
 rpi.addEventListener('mouseleave', linkShrink);
 
-javaSS.addEventListener('mouseover', linkGrowBig);
+javaSS.addEventListener('mouseover', linkGrow);
 javaSS.addEventListener('mouseleave', linkShrink);
 
-outserved.addEventListener('mouseover', linkGrowBig);
+outserved.addEventListener('mouseover', linkGrow);
 outserved.addEventListener('mouseleave', linkShrink);
 
 // Functions to grow or shrink cursor size
