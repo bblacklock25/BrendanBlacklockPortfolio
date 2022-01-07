@@ -20,11 +20,11 @@
 }
 
 .mobile-safari-project-one {
-  top: 2vh;
+  top: 2vh !important;
 }
 
 .mobile-chrome-project-one {
-  top: 0vh;
+  top: 0vh !important;
 }
 
 
