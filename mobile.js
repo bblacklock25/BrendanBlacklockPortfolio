@@ -32,6 +32,7 @@ if (mobileDevice == 1) {
     aboutSectionTwoSubheader.classList.add('mobile-chrome-safari-about-two-section-subheader');
 
     document.getElementById("project-section-one").classList.add("mobile-safari-project-one");
+    document.getElementById("project-section-two").classList.add("mobile-safari-project-two");
     document.getElementById("back-home-project").classList.add("mobile-safari-back-home-project");
   }
   if (navigator.userAgent.match('CriOS')) {
@@ -44,6 +45,7 @@ if (mobileDevice == 1) {
     aboutSectionTwoSubheader.classList.add('mobile-chrome-safari-about-two-section-subheader');
 
     document.getElementById("project-section-one").classList.add("mobile-chrome-project-one");
+    document.getElementById("project-section-two").classList.add("mobile-chrome-project-two");
     document.getElementById("back-home-project").classList.add("mobile-chrome-back-home-project");
   }
   if (browserName == "MS Edge" || browserName == "Edge ( chromium based)") {
@@ -60,6 +62,8 @@ if (mobileDevice == 1) {
 
     document.getElementById("project-section-one").classList.remove("mobile-safari-project-one");
     document.getElementById("project-section-one").classList.remove("mobile-chrome-project-one");
+    document.getElementById("project-section-two").classList.remove("mobile-safari-project-two");
+    document.getElementById("project-section-two").classList.remove("mobile-chrome-project-two");
     document.getElementById("back-home-project").classList.remove("mobile-safari-back-home-project");
     document.getElementById("back-home-project").classList.remove("mobile-chrome-back-home-project");
   }

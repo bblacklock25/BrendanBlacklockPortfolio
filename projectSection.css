@@ -49,6 +49,14 @@
   font-family: 'Oswald', sans-serif;
 }
 
+.mobile-safari-project-two {
+  top: 50vh !important;
+}
+
+.mobile-chrome-project-two {
+  top: 50vh !important;
+}
+
 /* BACK TO HOME BUTTON */
 
 #back-home-button-project {
