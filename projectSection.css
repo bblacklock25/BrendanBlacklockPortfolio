@@ -19,6 +19,13 @@
   font-family: 'Oswald', sans-serif;
 }
 
+.mobile-safari-project-one {
+  top: 2vh;
+}
+
+.mobile-chrome-project-one {
+  top: 0vh;
+}
 
 
 /* PROJECT SECTION TWO */

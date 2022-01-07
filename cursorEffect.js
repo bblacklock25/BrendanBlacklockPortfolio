@@ -5,6 +5,10 @@ const about = document.querySelector('#About');
 const projects = document.querySelector('#Projects');
 const resume = document.querySelector('#Resume');
 const contact = document.querySelector('#Contact');
+const fpga = document.querySelector('#FPGA');
+const rpi = document.querySelector('#RPi');
+const javaSS = document.querySelector('#JavaSS');
+const outserved = document.querySelector('#Outserved');
 const linkedIn = document.querySelector('#linkedin-social');
 const gitHub = document.querySelector('#github-social');
 const youTube = document.querySelector('#youtube-social');
@@ -40,6 +44,19 @@ gitHub.addEventListener('mouseover', linkGrow);
 gitHub.addEventListener('mouseleave', linkShrink);
 youTube.addEventListener('mouseover', linkGrow);
 youTube.addEventListener('mouseleave', linkShrink);
+
+// Project Links Hover Listeners
+fpga.addEventListener('mouseover', linkGrowBig);
+fpga.addEventListener('mouseleave', linkShrink);
+
+rpi.addEventListener('mouseover', linkGrowBig);
+rpi.addEventListener('mouseleave', linkShrink);
+
+javaSS.addEventListener('mouseover', linkGrowBig);
+javaSS.addEventListener('mouseleave', linkShrink);
+
+outserved.addEventListener('mouseover', linkGrowBig);
+outserved.addEventListener('mouseleave', linkShrink);
 
 // Functions to grow or shrink cursor size
 function linkGrow() {
