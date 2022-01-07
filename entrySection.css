@@ -143,7 +143,7 @@
   position: relative;
   color: white;
   text-decoration: none;
-  transition: 0.75s;
+  transition: 0.25s;
   overflow: hidden;
 }
 
@@ -151,7 +151,7 @@
   background: #21ebff;
   color: #111;
   box-shadow: 0 0 2em #21ebff;
-  transition-delay: 0.75s;
+  transition-delay: 0.25s;
 }
 
 #enter-button::before {
@@ -163,7 +163,7 @@
   height: 1em;
   border-top: .25em solid white;
   border-left: .25em solid white;
-  transition: 0.75s;
+  transition: 0.25s;
 }
 
 #enter-button:hover:before {
@@ -183,7 +183,7 @@
   height: 1em;
   border-bottom: .25em solid white;
   border-right: .25em solid white;
-  transition: 0.75s;
+  transition: 0.25s;
 }
 
 #enter-button:hover:after {
