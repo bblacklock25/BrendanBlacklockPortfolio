@@ -20,13 +20,12 @@
 }
 
 .mobile-safari-project-one {
-  top: 1vh !important;
+  top: 1.15vh !important;
 }
 
 .mobile-chrome-project-one {
-  top: 0.75vh !important;
+  top: 1.25vh !important;
 }
-
 
 /* PROJECT SECTION TWO */
 #project-section-two {
@@ -118,6 +117,14 @@
 
 #back-home-project {
   padding-top: 1.75em;
+}
+
+.mobile-chrome-back-home-project {
+  padding-top: .25em !important;
+}
+
+.mobile-safari-back-home-project {
+  padding-top: .5em !important;
 }
 
 @media (max-aspect-ratio: 4/3) {

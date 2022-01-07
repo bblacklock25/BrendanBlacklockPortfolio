@@ -32,6 +32,7 @@ if (mobileDevice == 1) {
     aboutSectionTwoSubheader.classList.add('mobile-chrome-safari-about-two-section-subheader');
 
     document.getElementById("project-section-one").classList.add("mobile-safari-project-one");
+    document.getElementById("back-home-project").classList.add("mobile-safari-back-home-project");
   }
   if (navigator.userAgent.match('CriOS')) {
     document.getElementById("main-section-one").classList.add("mobile-chrome-safari-main-one");
@@ -43,6 +44,7 @@ if (mobileDevice == 1) {
     aboutSectionTwoSubheader.classList.add('mobile-chrome-safari-about-two-section-subheader');
 
     document.getElementById("project-section-one").classList.add("mobile-chrome-project-one");
+    document.getElementById("back-home-project").classList.add("mobile-chrome-back-home-project");
   }
   if (browserName == "MS Edge" || browserName == "Edge ( chromium based)") {
     document.getElementById("main-section-one").classList.remove("mobile-chrome-safari-main-one");
@@ -56,7 +58,9 @@ if (mobileDevice == 1) {
     document.querySelector("#about-section-one-text .section-subheader").classList.remove("mobile-safari-about-one-subheader");
     aboutSectionTwoSubheader.classList.remove('mobile-chrome-safari-about-two-section-subheader');
 
-    document.getElementById("project-section-one").classList.add("mobile-safari-project-one");
-    document.getElementById("project-section-one").classList.add("mobile-chrome-project-one");
+    document.getElementById("project-section-one").classList.remove("mobile-safari-project-one");
+    document.getElementById("project-section-one").classList.remove("mobile-chrome-project-one");
+    document.getElementById("back-home-project").classList.remove("mobile-safari-back-home-project");
+    document.getElementById("back-home-project").classList.remove("mobile-chrome-back-home-project");
   }
 }
