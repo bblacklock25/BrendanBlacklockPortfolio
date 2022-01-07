@@ -6,6 +6,9 @@ const projects = document.querySelector('#Projects');
 const resume = document.querySelector('#Resume');
 const contact = document.querySelector('#Contact');
 const fpga = document.querySelector('#FPGA');
+const fpgaPaper = document.getElementById('rover-paper');
+const fpgaNotebook = document.getElementById('rover-notebook');
+const fpgaYoutube = document.getElementById('rover-youtube');
 const rpi = document.querySelector('#RPi');
 const javaSS = document.querySelector('#JavaSS');
 const outserved = document.querySelector('#Outserved');
@@ -48,6 +51,15 @@ youTube.addEventListener('mouseleave', linkShrink);
 // Project Links Hover Listeners
 fpga.addEventListener('mouseover', linkGrow);
 fpga.addEventListener('mouseleave', linkShrink);
+
+fpgaPaper.addEventListener('mouseover', linkGrow);
+fpgaPaper.addEventListener('mouseleave', linkShrink);
+
+fpgaNotebook.addEventListener('mouseover', linkGrow);
+fpgaNotebook.addEventListener('mouseleave', linkShrink);
+
+fpgaYoutube.addEventListener('mouseover', linkGrow);
+fpgaYoutube.addEventListener('mouseleave', linkShrink);
 
 rpi.addEventListener('mouseover', linkGrow);
 rpi.addEventListener('mouseleave', linkShrink);
