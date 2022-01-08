@@ -42,6 +42,21 @@ if (mobileDevice == 1) {
     document.getElementById("rover-section-one").classList.add("mobile-safari-rover-one");
     document.querySelector("#rover-section-one-text .section-subheader").classList.add("mobile-safari-rover-one-subheader");
     document.getElementById("rover-section-two").classList.add("mobile-safari-rover-two");
+    
+    // CATAPULT SECTION
+    document.getElementById("catapult-section-one").classList.add("mobile-safari-catapult-one");
+    document.querySelector("#catapult-section-one-text .section-subheader").classList.add("mobile-safari-catapult-one-subheader");
+    document.getElementById("catapult-section-two").classList.add("mobile-safari-catapult-two");
+    
+    // SUPERMARKET SECTION
+    document.getElementById("supermarket-section-one").classList.add("mobile-safari-supermarket-one");
+    document.querySelector("#supermarket-section-one-text .section-subheader").classList.add("mobile-safari-supermarket-one-subheader");
+    document.getElementById("supermarket-section-two").classList.add("mobile-safari-supermarket-two");
+
+    // OUTSERVED SECTION
+    document.getElementById("outserved-section-one").classList.add("mobile-safari-outserved-one");
+    document.querySelector("#outserved-section-one-text .section-subheader").classList.add("mobile-safari-outserved-one-subheader");
+    document.getElementById("outserved-section-two").classList.add("mobile-safari-outserved-two");
   }
   if (navigator.userAgent.match('CriOS')) {
     // HOME SECTION
@@ -63,6 +78,21 @@ if (mobileDevice == 1) {
     document.getElementById("rover-section-one").classList.add("mobile-chrome-rover-one");
     document.querySelector("#rover-section-one-text .section-subheader").classList.add("mobile-chrome-rover-one-subheader");
     document.getElementById("rover-section-two").classList.add("mobile-chrome-rover-two");
+    
+    // CATAPULT SECTION
+    document.getElementById("catapult-section-one").classList.add("mobile-chrome-catapult-one");
+    document.querySelector("#catapult-section-one-text .section-subheader").classList.add("mobile-chrome-catapult-one-subheader");
+    document.getElementById("catapult-section-two").classList.add("mobile-chrome-catapult-two");
+    
+    // SUPERMARKET SECTION
+    document.getElementById("supermarket-section-one").classList.add("mobile-chrome-supermarket-one");
+    document.querySelector("#supermarket-section-one-text .section-subheader").classList.add("mobile-chrome-supermarket-one-subheader");
+    document.getElementById("supermarket-section-two").classList.add("mobile-chrome-supermarket-two");
+
+    // OUTSERVED SECTION
+    document.getElementById("outserved-section-one").classList.add("mobile-chrome-outserved-one");
+    document.querySelector("#outserved-section-one-text .section-subheader").classList.add("mobile-chrome-outserved-one-subheader");
+    document.getElementById("outserved-section-two").classList.add("mobile-chrome-outserved-two");
   }
   if (browserName == "MS Edge" || browserName == "Edge ( chromium based)") {
     // HOME SECTION
@@ -93,5 +123,29 @@ if (mobileDevice == 1) {
     document.querySelector("#rover-section-one-text .section-subheader").classList.remove("mobile-chrome-rover-one-subheader");
     document.getElementById("rover-section-two").classList.remove("mobile-safari-rover-two");
     document.getElementById("rover-section-two").classList.remove("mobile-chrome-rover-two");
+    
+    // CATAPULT SECTION
+    document.getElementById("catapult-section-one").classList.remove("mobile-safari-catapult-one");
+    document.querySelector("#catapult-section-one-text .section-subheader").classList.remove("mobile-safari-catapult-one-subheader");
+    document.getElementById("catapult-section-one").classList.remove("mobile-chrome-catapult-one");
+    document.querySelector("#catapult-section-one-text .section-subheader").classList.remove("mobile-chrome-catapult-one-subheader");
+    document.getElementById("catapult-section-two").classList.remove("mobile-safari-catapult-two");
+    document.getElementById("catapult-section-two").classList.remove("mobile-chrome-catapult-two");
+    
+    // SUPERMARKET SECTION
+    document.getElementById("supermarket-section-one").classList.remove("mobile-safari-supermarket-one");
+    document.querySelector("#supermarket-section-one-text .section-subheader").classList.remove("mobile-safari-supermarket-one-subheader");
+    document.getElementById("supermarket-section-one").classList.remove("mobile-chrome-supermarket-one");
+    document.querySelector("#supermarket-section-one-text .section-subheader").classList.remove("mobile-chrome-supermarket-one-subheader");
+    document.getElementById("supermarket-section-two").classList.remove("mobile-safari-supermarket-two");
+    document.getElementById("supermarket-section-two").classList.remove("mobile-chrome-supermarket-two");
+
+    // OUTSERVED SECTION
+    document.getElementById("outserved-section-one").classList.remove("mobile-safari-outserved-one");
+    document.querySelector("#outserved-section-one-text .section-subheader").classList.remove("mobile-safari-outserved-one-subheader");
+    document.getElementById("outserved-section-one").classList.remove("mobile-chrome-outserved-one");
+    document.querySelector("#outserved-section-one-text .section-subheader").classList.remove("mobile-chrome-outserved-one-subheader");
+    document.getElementById("outserved-section-two").classList.remove("mobile-safari-outserved-two");
+    document.getElementById("outserved-section-two").classList.remove("mobile-chrome-outserved-two");
   }
 }

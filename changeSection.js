@@ -12,9 +12,18 @@ const fpgaPaperLink = document.getElementById("rover-paper");
 const fpgaNotebookLink = document.getElementById("rover-notebook");
 const fpgaYoutubeLink = document.getElementById("rover-youtube");
 const rpiLink = document.getElementById("RPi");
+const rpiPaperLink = document.getElementById("catapult-paper");
+const rpiYoutubeLink = document.getElementById("catapult-youtube");
 const javaLink = document.getElementById("JavaSS");
+const javaPaperLink = document.getElementById("supermarket-paper");
+const javaRepoLink = document.getElementById("supermarket-repo");
+const javaYoutubeLink = document.getElementById("supermarket-youtube");
 const outservedLink = document.getElementById("Outserved");
+const outservedNotebookLink = document.getElementById("outserved-notebook");
 const backProjectButtonRover = document.getElementById("back-project-button-rover");
+const backProjectButtonCatapult = document.getElementById("back-project-button-catapult");
+const backProjectButtonSupermarket = document.getElementById("back-project-button-supermarket");
+const backProjectButtonOutserved = document.getElementById("back-project-button-outserved");
 
 // HOME SECTIONS
 const sectionOne = document.getElementsByClassName('section-one');
@@ -25,6 +34,9 @@ const projectSection = document.getElementById("project-section");
 
 // PROJECT SECTIONS
 const fpgaSection = document.getElementById("rover-section");
+const rpiSection = document.getElementById("catapult-section");
+const javaSection = document.getElementById("supermarket-section");
+const outservedSection = document.getElementById("outserved-section");
 
 // HOME LINK EVENT LISTENERS
 aboutLink.addEventListener('click', homeToAbout, false);
@@ -39,7 +51,23 @@ fpgaLink.addEventListener('click', projectsToRover, false);
 fpgaPaperLink.addEventListener('click', openRoverPaper, false);
 fpgaNotebookLink.addEventListener('click', openRoverNotebook, false);
 fpgaYoutubeLink.addEventListener('click', openRoverYoutube, false);
+
+rpiLink.addEventListener('click', projectsToCatapult, false);
+rpiPaperLink.addEventListener('click', openCatapultPaper, false);
+rpiYoutubeLink.addEventListener('click', openCatapultYoutube, false);
+
+javaLink.addEventListener('click', projectsToSupermarket, false);
+javaPaperLink.addEventListener('click', openSupermarketPaper, false);
+javaRepoLink.addEventListener('click', openSupermarketRepo, false);
+javaYoutubeLink.addEventListener('click', openSupermarketYoutube, false);
+
+outservedLink.addEventListener('click', projectsToOutserved, false);
+outservedNotebookLink.addEventListener('click', openOutservedNotebook, false);
+
 backProjectButtonRover.addEventListener('click', backProjectsRover, false);
+backProjectButtonCatapult.addEventListener('click', backProjectsCatapult, false);
+backProjectButtonSupermarket.addEventListener('click', backProjectsSupermarket, false);
+backProjectButtonOutserved.addEventListener('click', backProjectsOutserved, false);
 
 
 
@@ -147,3 +175,110 @@ function openRoverYoutube() {
     window.open('https://www.youtube.com/playlist?list=PLLfB6FCCB5Cd5DCn-X1VjnWNtZrDeek6D', '_blank').focus();
 }
 
+function projectsToCatapult() {
+    sectionOne[2].classList.add('slide-text-left');
+    sectionTwo[2].classList.add('slide-text-right');
+    setTimeout(function() {
+        if (rpiSection.classList.contains("section-hidden")) {
+            sectionOne[4].classList.remove('slide-text-left');
+            sectionTwo[4].classList.remove('slide-text-right');
+            rpiSection.classList.remove('section-hidden');
+        }
+        projectSection.classList.remove('section-fadein');
+        projectSection.classList.add('section-hidden');
+        rpiSection.classList.add('section-fadein');
+    }, 1700);
+}
+
+function backProjectsCatapult() {
+    sectionOne[2].classList.remove('slide-text-left');
+    sectionTwo[2].classList.remove('slide-text-right');
+    sectionOne[4].classList.add('slide-text-left');
+    sectionTwo[4].classList.add('slide-text-right');
+    setTimeout(function() {
+        rpiSection.classList.remove('section-fadein');
+        rpiSection.classList.add('section-hidden');
+        projectSection.classList.remove('section-hidden');
+        projectSection.classList.add('section-fadein');
+    }, 1700);
+}
+
+function openCatapultPaper() {
+    window.open('BrendanBlacklockPortfolio/ECE3332_AutomatedCatapult_BrendanBlacklock_FinalReport.pdf', '_blank').focus();
+}
+
+function openCatapultYoutube() {
+    window.open('https://www.youtube.com/playlist?list=PLLfB6FCCB5CdtsvPQ7Bs0q3EcEazYo1-1', '_blank').focus();
+}
+
+function projectsToSupermarket() {
+    sectionOne[2].classList.add('slide-text-left');
+    sectionTwo[2].classList.add('slide-text-right');
+    setTimeout(function() {
+        if (javaSection.classList.contains("section-hidden")) {
+            sectionOne[5].classList.remove('slide-text-left');
+            sectionTwo[5].classList.remove('slide-text-right');
+            javaSection.classList.remove('section-hidden');
+        }
+        projectSection.classList.remove('section-fadein');
+        projectSection.classList.add('section-hidden');
+        javaSection.classList.add('section-fadein');
+    }, 1700);
+}
+
+function backProjectsSupermarket() {
+    sectionOne[2].classList.remove('slide-text-left');
+    sectionTwo[2].classList.remove('slide-text-right');
+    sectionOne[5].classList.add('slide-text-left');
+    sectionTwo[5].classList.add('slide-text-right');
+    setTimeout(function() {
+        javaSection.classList.remove('section-fadein');
+        javaSection.classList.add('section-hidden');
+        projectSection.classList.remove('section-hidden');
+        projectSection.classList.add('section-fadein');
+    }, 1700);
+}
+
+function openSupermarketPaper() {
+    window.open('BrendanBlacklockPortfolio/ProjectReportFile.pdf', '_blank').focus();
+}
+
+function openSupermarketRepo() {
+    window.open('https://github.com/Refractedd/CS3365_SCIS_Project', '_blank').focus();
+}
+
+function openSupermarketYoutube() {
+    window.open('https://youtu.be/mFpt0a1EStc', '_blank').focus();
+}
+
+function projectsToOutserved() {
+    sectionOne[2].classList.add('slide-text-left');
+    sectionTwo[2].classList.add('slide-text-right');
+    setTimeout(function() {
+        if (outservedSection.classList.contains("section-hidden")) {
+            sectionOne[6].classList.remove('slide-text-left');
+            sectionTwo[6].classList.remove('slide-text-right');
+            outservedSection.classList.remove('section-hidden');
+        }
+        projectSection.classList.remove('section-fadein');
+        projectSection.classList.add('section-hidden');
+        outservedSection.classList.add('section-fadein');
+    }, 1700);
+}
+
+function backProjectsOutserved() {
+    sectionOne[2].classList.remove('slide-text-left');
+    sectionTwo[2].classList.remove('slide-text-right');
+    sectionOne[6].classList.add('slide-text-left');
+    sectionTwo[6].classList.add('slide-text-right');
+    setTimeout(function() {
+        outservedSection.classList.remove('section-fadein');
+        outservedSection.classList.add('section-hidden');
+        projectSection.classList.remove('section-hidden');
+        projectSection.classList.add('section-fadein');
+    }, 1700);
+}
+
+function openOutservedNotebook() {
+    window.open('https://www.kaggle.com/brendanblacklock/outservedmain?kernelSessionId=67202744', '_blank').focus();
+}

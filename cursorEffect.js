@@ -10,8 +10,14 @@ const fpgaPaper = document.getElementById('rover-paper');
 const fpgaNotebook = document.getElementById('rover-notebook');
 const fpgaYoutube = document.getElementById('rover-youtube');
 const rpi = document.querySelector('#RPi');
+const rpiPaper = document.getElementById('catapult-paper');
+const rpiYoutube = document.getElementById('catapult-youtube');
 const javaSS = document.querySelector('#JavaSS');
+const javaPaper = document.getElementById('supermarket-paper');
+const javaRepo = document.getElementById('supermarket-repo');
+const javaYoutube = document.getElementById('supermarket-youtube');
 const outserved = document.querySelector('#Outserved');
+const outservedNotebook = document.getElementById('outserved-notebook');
 const linkedIn = document.querySelector('#linkedin-social');
 const gitHub = document.querySelector('#github-social');
 const youTube = document.querySelector('#youtube-social');
@@ -64,11 +70,29 @@ fpgaYoutube.addEventListener('mouseleave', linkShrink);
 rpi.addEventListener('mouseover', linkGrow);
 rpi.addEventListener('mouseleave', linkShrink);
 
+rpiPaper.addEventListener('mouseover', linkGrow);
+rpiPaper.addEventListener('mouseleave', linkShrink);
+
+rpiYoutube.addEventListener('mouseover', linkGrow);
+rpiYoutube.addEventListener('mouseleave', linkShrink);
+
 javaSS.addEventListener('mouseover', linkGrow);
 javaSS.addEventListener('mouseleave', linkShrink);
 
+javaPaper.addEventListener('mouseover', linkGrow);
+javaPaper.addEventListener('mouseleave', linkShrink);
+
+javaRepo.addEventListener('mouseover', linkGrow);
+javaRepo.addEventListener('mouseleave', linkShrink);
+
+javaYoutube.addEventListener('mouseover', linkGrow);
+javaYoutube.addEventListener('mouseleave', linkShrink);
+
 outserved.addEventListener('mouseover', linkGrow);
 outserved.addEventListener('mouseleave', linkShrink);
+
+outservedNotebook.addEventListener('mouseover', linkGrow);
+outservedNotebook.addEventListener('mouseleave', linkShrink);
 
 // Functions to grow or shrink cursor size
 function linkGrow() {
