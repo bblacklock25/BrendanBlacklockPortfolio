@@ -1,4 +1,5 @@
 // HOME LINKS AND BUTTONS
+const homeLink = document.getElementById('name');
 const aboutLink = document.getElementById("About");
 const projectsLink = document.getElementById("Projects");
 const resumeLink = document.getElementById("Resume");
@@ -39,6 +40,7 @@ const javaSection = document.getElementById("supermarket-section");
 const outservedSection = document.getElementById("outserved-section");
 
 // HOME LINK EVENT LISTENERS
+homeLink.addEventListener('click', toHome, false);
 aboutLink.addEventListener('click', homeToAbout, false);
 projectsLink.addEventListener('click', homeToProjects, false);
 resumeLink.addEventListener('click', openResumePDF, false);
@@ -69,7 +71,9 @@ backProjectButtonCatapult.addEventListener('click', backProjectsCatapult, false)
 backProjectButtonSupermarket.addEventListener('click', backProjectsSupermarket, false);
 backProjectButtonOutserved.addEventListener('click', backProjectsOutserved, false);
 
-
+function toHome() {
+    window.open('BrendanBlacklockPortfolio/index.html').focus();
+}
 
 function homeToAbout() {
     sectionOne[0].classList.add('slide-text-left');
@@ -128,7 +132,7 @@ function homeToProjects() {
 }
 
 function openResumePDF() {
-    window.open('BrendanBlacklockPortfolio/ResumeDec2021.pdf', '_blank').focus();
+    window.open('BrendanBlacklockPortfolio/resumePortfolio.pdf', '_blank').focus();
 }
 
 function openEmailContact() {
