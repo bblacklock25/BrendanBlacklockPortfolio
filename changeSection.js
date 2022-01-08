@@ -132,7 +132,7 @@ function homeToProjects() {
 }
 
 function openResumePDF() {
-    window.open('BrendanBlacklockPortfolio/resumePortfolio.pdf', '_blank').focus();
+    window.open('BrendanBlacklockPortfolio/ResumeDec2021.pdf', '_blank').focus();
 }
 
 function openEmailContact() {
